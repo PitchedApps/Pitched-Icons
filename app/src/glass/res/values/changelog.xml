@@ -5,8 +5,8 @@
     </string-array>
 
     <string-array name="v0">
-        <item>v0.0.1</item>
-        <item>test</item>
+        <item>v6.0.0</item>
+        <item>Pitched Glass is back! After being swamped by cm themes and layers, I thought it would be only fair to work on my very first android project again. Unfortunately, the other three packs are rapidly approaching the max cap of 50MB, so I\'ll only be updating this one. Bring forth the material design!</item>
     </string-array>
 
 </resources>
