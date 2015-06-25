@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundt">#60000000</color>
+    <color name="background">#88000000</color>
+    <color name="backgroundd">#88161616</color>
+    <color name="backgrounddd">#88323232</color>
+    <color name="drawer">#aa000000</color>
+    <color name="drawerr">#aa161616</color>
+    <color name="dblue">#ff343d41</color>
+    <color name="dblue_t">#cc343d41</color>
+    <color name="hint">#cc000000</color>
+    <color name="pblue">#ff748b96</color>
+    <color name="pblue_t">#cc748B96</color>
+    <color name="pbluee">#ff62757e</color>
+    <color name="pbluee_t">#cc62757e</color>
+    <color name="pbluel">#ffa7b8c0</color>
+    <color name="text">#ffffffff</color>
+    <color name="textt">#ddffffff</color>
+    <color name="texttt">#aaffffff</color>
+    <color name="card">#50000000</color>
+    <color name="wallitem">#b0000000</color>
+    <color name="button">#66111111</color>
+
+
+    <color name="dialog">#bb060606</color>
+
+    <color name="status">#881565c0</color>
+    <color name="actionbar">#ff1976d2</color>
+
+    <color name="fab_unpressed">#1976d2</color>
+    <color name="fab_pressed">#1565c0</color>
+    <color name="faboverlay">#80000000</color>
+
+
+    <color name="primary">#1976d2</color>
+    <color name="primary_dark">#1565c0</color>
+    <color name="primary_pressed">#039be5</color>
+    <color name="accent">@color/text</color>
+    <color name="ripple">#70ffffff</color>
+    <color name="ripple_accent">#70ffffff</color>
+    <color name="accent_pressed">@color/textt</color>
+    <color name="accent_secondary">@color/accent</color>
+    <color name="secondary">@color/textt</color>
+    <color name="secondary_pressed">@color/textt</color>
+    <color name="navbar">#aa000000</color>
+    <!-- Ctrl + H and search for color/cardsbg if you want to customize card colors individually-->
+    <color name="cardsbg">#30000000</color>
+    <!-- Color for Backgrounds -->
+    <color name="light_bg">@color/backgroundt</color>
+    <!-- Color for texts in Dialogs -->
+    <color name="dialogcontent">@color/text</color>
+    <!-- Color for some ripples -->
+    <color name="semitransparent_white">#80ffffff</color>
+    <!-- Color for texts -->
+    <color name="dark_grey">@color/textt</color>
+
+
+    <!-- Don't edit -->
+    <color name="red">#f44336</color>
+    <color name="green">#4caf50</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="window_bg">@color/background</color>
+    <color name="divider_grey">#22ffffff</color>
+
+    <color name="divider">#1fffffff</color>
+</resources>

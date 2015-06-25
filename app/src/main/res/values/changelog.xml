@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="layers_apps">"aframework,asystemui,asettings,alayers,acontacts,anavbar, "</string>
+
+    <string-array name="fullchangelog">
+        <item>@array/note</item>
+
+        <item>@array/v36</item>
+        <item>@array/v35</item>
+        <item>@array/v34</item>
+        <item>@array/v33</item>
+        <item>@array/v32</item>
+        <item>@array/v31</item>
+        <item>@array/v30</item>
+        <item>@array/v29</item>
+        <item>@array/v28</item>
+        <item>@array/v27</item>
+        <item>@array/v26</item>
+        <item>@array/v25</item>
+        <item>@array/v24</item>
+        <item>@array/v23</item>
+        <item>@array/v22</item>
+        <item>@array/v21</item>
+        <item>@array/v20</item>
+        <item>@array/v19</item>
+        <item>@array/v18</item>
+        <item>@array/v17</item>
+        <item>@array/v16</item>
+        <item>@array/v15</item>
+        <item>@array/v14</item>
+        <item>@array/v13</item>
+        <item>@array/v12</item>
+        <item>@array/v11</item>
+        <item>@array/v10</item>
+        <item>@array/v9</item>
+        <item>@array/v8</item>
+        <item>@array/v7</item>
+        <item>@array/v6</item>
+        <item>@array/v5</item>
+        <item>@array/v4</item>
+        <item>@array/v3</item>
+        <item>@array/v2</item>
+        <item>@array/v1</item>
+        <item>@array/v0</item>
+    </string-array>
+
+    <string-array name="note">
+        <item>Notice</item>
+        <item>As of June 24th, 2015, Material Glass has become the first app to support both CM themes and the layers plugin. Please note that this is largely a WIP, and that bugs may arise. Make sure you know how to remove a layer in case bootloops happen, as I only have one device to test!</item>
+    </string-array>
+
+    <string-array name="v36">
+        <item>v2.1.1</item>
+        <item>Settings: support AOSIP icon and custom colors</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="v35">
+        <item>v2.1.0</item>
+        <item>Layers: Fixed naming so zip installs properly</item>
+        <item>Layers: Added complete ripples to pre lollipop</item>
+        <item>Layers: Slim support for settings</item>
+        <item>Layers: Themed layers manager</item>
+        <item>Layers: Themed more core styles and drawables</item>
+        <item>Layers: Themed contacts</item>
+        <item>Layers: Fixed up systemui</item>
+        <item>Layers: Cataclysm support for settings</item>
+        <item>Layers: Moved nav bar icons to separate layers (uninstall if you have your own custom ones)</item>
+    </string-array>
+
+    <string-array name="v34">
+        <item>v2.0.0</item>
+        <item>Play Store: updated for v5.6.8</item>
+        <item>App: removed dependency for balysv ripples</item>
+        <item>LAYERS SUPPORT - get the new layers manager and check it out!</item>
+    </string-array>
+
+    <string-array name="v33">
+        <item>v1.1.0</item>
+        <item>App: finally fixed donations, donating once will unlock a secret feature</item>
+        <item>App: FAB will not appear unless supported (you can always apply via the actual theme chooser)</item>
+        <item>App: cleaned up manifest, unnecessary colors, and other parts</item>
+        <item>Settings: added STweaks icon</item>
+        <item>Settings: fixed white fab (ie in blacklisting)</item>
+        <item>Icons: added 34 new</item>
+    </string-array>
+
+    <string-array name="v32">
+        <item>v1.0.6</item>
+        <item>App: fixed icon previews</item>
+        <item>MMS: fixed white patches</item>
+        <item>New: themed AudioFx</item>
+        <item>Google Drive: moved to play store build</item>
+    </string-array>
+
+    <string-array name="v31">
+        <item>v1.0.5</item>
+        <item>App: fixed up secret feature</item>
+        <item>App: fixed up donations fragment</item>
+        <item>Settings: added more white icons</item>
+        <item>Icons: 36 new</item>
+    </string-array>
+
+    <string-array name="v30">
+        <item>v1.0.4</item>
+        <item>Google Services: redo, sign in dialog text is now visible</item>
+        <item>Nova: fixed dock background crash</item>
+        <item>New: themed inbox (wip, xda)</item>
+        <item>Gmail: various fixes plus attempt to change white background for tablets</item>
+    </string-array>
+
+    <string-array name="v29">
+        <item>v1.0.3</item>
+        <item>Fixed crashes for play store version</item>
+        <item>Notice: from now on, I will only be pushing updates to the play store in increments of 0.x, rather than 0.0.x. All additional builds in between will be hosted on androidfilehost as xda versions. As much as I love to publicize my apps, it seems as though I am prone to errors with multiple build flavours and many more individual packages. Though I generally fix these issues within 24 hours, it still doesn\'t seem to be enough for this community. So in essence, I will be updating more frequently on xda, where responses are more constructive than damaging, and actually help bring this project forwards.</item>
+    </string-array>
+
+    <string-array name="v28">
+        <item>v1.0.2</item>
+        <item>Settings: added validus icon</item>
+        <item>App: compacted all images</item>
+        <item>App: added secret feature</item>
+        <item>New: themed google drive (xda)</item>
+        <item>Play store: redid appcompats, themed more icons</item>
+        <item>Gmail: redid appcompats</item>
+        <item>App: redid donations section</item>
+    </string-array>
+
+    <string-array name="v27">
+        <item>v1.0.1</item>
+        <item>Framework: revert actionbar theming for compatibility</item>
+        <item>Common: huge appcompat port</item>
+        <item>New: themed snapcolors</item>
+        <item>Framework: themed zen icons for Euphoria\'s power menu</item>
+        <item>New: themed native clip board</item>
+        <item>Theme: appcompat fixes all over the place</item>
+        <item>Icons: 13 new</item>
+        <item>MMS: added bliss + cyanogenmod caf colors (did not test as I don\'t use bliss)</item>
+        <item>Kernel Adiutor: fixed fab + style redo</item>
+        <item>Swype: moved to main production (only material dark is themed)</item>
+    </string-array>
+
+    <string-array name="v26">
+        <item>v1.0.0</item>
+        <item>Out of beta!</item>
+        <item>Icons: 48 new</item>
+        <item>UI: added more credits + team blackout card (only visible if you haven\'t downloaded it yet)</item>
+        <item>UI: added user icon section</item>
+        <item>Google +: lots of tweaks everywhere</item>
+        <item>UI: FAB directly goes to Material Glass in the theme chooser (thanks Ivon)</item>
+        <item>New: Themed swype (xda)</item>
+        <item>Nova Launcher: fixed white idle background</item>
+        <item>UI: Fixed ipples for icon section</item>
+    </string-array>
+
+    <string-array name="v25">
+        <item>v0.9.8</item>
+        <item>MMS: themed widget</item>
+        <item>Google +: moved xda version to play store build</item>
+        <item>Framework: themed appops permission icons</item>
+        <item>Framework: themed some more dialogs</item>
+        <item>New: themed packageinstaller (minor)</item>
+        <item>UI: readded theme info section</item>
+    </string-array>
+
+    <string-array name="v24">
+        <item>v0.9.8-beta1</item>
+        <item>UI: rebased to Paperboard v7 + lots of other fixes</item>
+        <item>Project: open sourced!</item>
+        <item>Framework:: fixed dark overflow on light themes</item>
+        <item>New: Themed google games (xda)</item>
+        <item>Google +: slightly more transparency (xda)</item>
+        <item>Google Services: fixed some white backgrounds (xda)</item>
+        <item>CellBroadcastReceiver: added latest style commits</item>
+        <item>Deskclock: added latest background commits</item>
+        <item>Reverted to older build tools</item>
+    </string-array>
+
+    <string-array name="v23">
+        <item>v0.9.7</item>
+        <item>Settings: Removed some teal (add qs tiles)</item>
+        <item>Settings: Fixed up battery chart section</item>
+        <item>Settings: Storage section colors now translucent</item>
+        <item>Google Services: Merged with common folders for fixes (xda alpha)</item>
+        <item>Gmail: Fixed recipient background color</item>
+        <item>Gmail: Fixed up cache colors (now solid black)</item>
+    </string-array>
+
+    <string-array name="v22">
+        <item>v0.9.7-beta1</item>
+        <item>Framework: Added proper ripples for holo actionbars</item>
+        <item>DocumentsUI: Fully themed (based off of Euphoria)</item>
+        <item>New: Themed google handwriting</item>
+        <item>New: Themed google services (xda alpha)</item>
+        <item>New: Themed adiutor (use dark theme)</item>
+        <item>Gmail: Lots of fixes (widget is now clear!)</item>
+        <item>SystemUI: Fixed battery circle base color</item>
+    </string-array>
+
+    <string-array name="v21">
+        <item>v0.9.6</item>
+        <item>New: Themed relay for reddit (free and pro)</item>
+        <item>New: Themed ebay notifications</item>
+        <item>New: Themed adobe acrobat (in xda beta version)</item>
+        <item>Icon: Added true caller</item>
+        <item>Google + updates (xda version)</item>
+        <item>Play Store is more transparent</item>
+        <item>UI: Code cleanup</item>
+        <item>Paperboard: Update 6</item>
+    </string-array>
+
+    <string-array name="v20">
+        <item>v0.9.5</item>
+        <item>UI: Added initial info section</item>
+        <item>Framework: Fixed material borderless ripples</item>
+        <item>SystemMUI: Made quick settings slightly darker</item>
+        <item>Snapchat: Darkened notification color</item>
+        <item>UI: Borderless ripples in icon section</item>
+        <item>Framework: Thinner switches</item>
+        <item>Dialer and Contacts: Fixed nav button issues</item>
+    </string-array>
+
+    <string-array name="v19">
+        <item>v0.9.5-beta1</item>
+        <item>30 new icons</item>
+        <item>UI: changelog dialog updates</item>
+        <item>UI: new user icon tab</item>
+        <item>Paperboard update v5</item>
+    </string-array>
+
+    <string-array name="v18">
+        <item>v0.9.4</item>
+        <item>Quick fix for theme error (sorry guys)</item>
+    </string-array>
+
+    <string-array name="v17">
+        <item>v0.9.3</item>
+        <item>Framework: Fixed notification button colors</item>
+        <item>Font: Changed to Helvetica Neue</item>
+        <item>Gmail: Fixed conversation background color</item>
+        <item>Nova: Fixed icon picker crash (white on white though)</item>
+    </string-array>
+
+    <string-array name="v16">
+        <item>v0.9.2</item>
+        <item>SystemUI: Transparent volume panel</item>
+        <item>CM MMS: Fixed drawables</item>
+        <item>Framework: Fixed resolver list</item>
+        <item>Framework: Fixed fastscroll label color</item>
+        <item>Framework: Reverted material light text colors</item>
+        <item>Removed Relay for reddit (reddit news) for now</item>
+        <item>Google + tweaks</item>
+    </string-array>
+
+    <string-array name="v15">
+        <item>v0.9.2-beta1</item>
+        <item>vXDA: Modified google + to be more dependent on app compat</item>
+        <item>vXDA: Themed ModernHub (material Github)</item>
+        <item>SystemUI tweaks</item>
+        <item>PaperBoard massive UI cleanup</item>
+    </string-array>
+
+    <string-array name="v14">
+        <item>v0.9.1</item>
+        <item>SystemUI: Fixed navring targets</item>
+        <item>Settings: Added icon (Meticulus)</item>
+        <item>Contacts: Minor tweaks</item>
+        <item>Euphoria OTA: beautifully rethemed</item>
+        <item>UI: Add credits to donation lib</item>
+        <item>UI: Reorder home</item>
+        <item>UI: Smaller dialog font sizes</item>
+        <item>PaperBoard: Muzei changes</item>
+    </string-array>
+
+    <string-array name="v13">
+        <item>v0.9.0-beta2</item>
+        <item>Revamped UI</item>
+        <item>Fixed loading issues with wallpapers and icons (thanks to PaperBoard)</item>
+        <item>Added Muzei support (thanks to PaperBoard)</item>
+        <item>Added FAB (thanks Ivon)</item>
+    </string-array>
+
+    <string-array name="v12">
+        <item>v0.9.0-beta1</item>
+        <item>Brand new UI! (WIP, please don\'t submit bug reports yet)</item>
+        <item>Fixed heads up issue</item>
+        <item>Themed nav buttons</item>
+        <item>Framework tweak</item>
+        <item>Brightened up documentsUI wallpaper</item>
+    </string-array>
+
+    <string-array name="v11">
+        <item>v0.8.2</item>
+        <item>Tested and working on android 5.1 (euphoria, hammerhead)</item>
+        <item>Themed Launcher3</item>
+        <item>Themed Reddit News Pro (night mode)</item>
+        <item>Made nova folder background configurable</item>
+        <item>Check xda version for themed google +!</item>
+        <item>Fixed up calculator</item>
+        <item>Fixed menu transparency issue</item>
+        <item>Tweaked MMS</item>
+        <item>Tweaked gmail</item>
+        <item>New app icon</item>
+    </string-array>
+
+    <string-array name="v10">
+        <item>v0.8.1</item>
+        <item>Quick fix for white actionbar</item>
+        <item>System UI is more transparent</item>
+        <item>Colored FAB for dialer and contacts</item>
+    </string-array>
+
+    <string-array name="v9">
+        <item>v0.8.0</item>
+        <item>Themed Google Keyboard</item>
+        <item>Fixed up google search</item>
+        <item>Themed AOSP messaging</item>
+        <item>Themed AOSP music</item>
+        <item>Recolored dialer and contacts</item>
+        <item>Added parts to system ui</item>
+        <item>Started using sdk 22</item>
+    </string-array>
+
+    <string-array name="v8">
+        <item>v0.7.8</item>
+        <item>Added ripples to a lot of areas</item>
+        <item>Themed newest nova launcher (join beta)</item>
+        <item>Made youtube settings readable</item>
+        <item>Fully themed contacts</item>
+        <item>Themed more system ui</item>
+    </string-array>
+
+    <string-array name="v7">
+        <item>v0.7.7</item>
+        <item>Fixed up play store</item>
+        <item>Reintroduced dialer and contacts</item>
+        <item>Themed emergency dial and mobile networks, plus a bit more</item>
+        <item>Potential fix for dialog pop ups showing just the wallpaper</item>
+        <item>Added FAB in the app to launch the theme chooser (thanks Ivon)</item>
+    </string-array>
+
+    <string-array name="v6">
+        <item>v0.7.6</item>
+        <item>Removed dialer and contact theming (too buggy, use the xda version if you want it)</item>
+        <item>Added border along toast messages</item>
+    </string-array>
+
+    <string-array name="v5">
+        <item>v0.7.5</item>
+        <item>Fixed issue with primary light text</item>
+        <item>Improved on gmail, more transparency and black dropdown</item>
+        <item>Darkened snapchat\'s splash color</item>
+        <item>Downsized the bootanimation in hopes of supporting phones with hdpi and under (you can still get the xxhdpi version on android file host)</item>
+    </string-array>
+
+    <string-array name="v4">
+        <item>v0.7.4</item>
+        <item>Updated google to latest update (feb 26)</item>
+        <item>Slightly darkened settings</item>
+        <item>Cleaned up google + code</item>
+    </string-array>
+
+    <string-array name="v3">
+        <item>v0.7.3</item>
+        <item>Nerfed holo colors</item>
+        <item>Fixed up some gmail components</item>
+        <item>Themed a few modules</item>
+        <item>Themed theme.holo related styles</item>
+        <item>Fixed up SystemUI a bit</item>
+    </string-array>
+
+    <string-array name="v2">
+        <item>v0.7.2</item>
+        <item>Made google now drawer text a bit lighter</item>
+        <item>Made dialer search background black</item>
+        <item>Themed xposed</item>
+        <item>Materialized theme engine drawer</item>
+        <item>Fixed euphoria OTA</item>
+    </string-array>
+
+    <string-array name="v1">
+        <item>v0.7.1</item>
+        <item>Initial changelog</item>
+        <item>Testing in progress</item>
+    </string-array>
+
+    <string-array name="v0">
+        <item>v0.0.1</item>
+        <item>January 15th, 2015: Theme Engine is merged into CyanogenMod 12.0</item>
+        <item>January 16th, 2015: Material Glass is born</item>
+        <item>January 20th, 2015: Material Glass appears in the Play Store</item>
+    </string-array>
+
+</resources>
