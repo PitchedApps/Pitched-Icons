@@ -23,7 +23,7 @@ import java.util.Random;
 
 public class ArtSource extends RemoteMuzeiArtSource {
 
-    private static final String ARTSOURCE_NAME = "Material Glass";
+    private static final String ARTSOURCE_NAME = "Pitched Glass";
     private static final String JSON_URL = "https://raw.githubusercontent.com/asdfasdfvful/Pitched-Wallpapers/master/Material_Glass/0wallpapers.json";
     private static final String MARKET_URL = "https://play.google.com/store/apps/details?id=";
     private static final int COMMAND_ID_SHARE = 1337;
