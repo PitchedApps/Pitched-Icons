@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">Pitched Glass</string>
+    <string name="app_long_name">Pitched Glass by Pitched Apps</string>
+    <string name="package_name">com.pitchedapps.icons.glass</string>
+	<string name="theme_description">Pitched Glass was one of the first apps I\'ve made, and contains over 2000 hand crafted icons, aimed at delivery a glassy look, while allowing your wallpaper to show through.</string>
+	<string name="welcome_title">The perfect icons to accentuate your wallpaper</string>
+
+		
+	<!-- Mail subjects for simple e-mail and requests e-mail -->
+    <string name="email_subject">Pitched Glass Support</string>
+    <string name="email_request_subject">Pitched Glass - Secret Icon Request</string>
+    <string name="request_save_location">"/Pitched_Glass/Requests"</string>
+	
+	<!-- Strings for Wallpapers -->
+    <string name="walls_save_location">"/Pitched_Glass/Wallpapers/"</string>
+    <string name="walls_prefix_name">Pitched_Glass_</string>
+</resources>

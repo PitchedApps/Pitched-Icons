@@ -1,6 +1,5 @@
 package com.pitchedapps.icons.fragments;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -9,19 +8,15 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.melnykov.fab.FloatingActionButton;
 import com.melnykov.fab.ObservableScrollView;
 import com.pitchedapps.icons.R;
 import com.pitchedapps.icons.activities.MainActivity;
-
-import java.lang.reflect.Constructor;
 
 public class HomeFragment extends Fragment {
 
@@ -137,34 +132,8 @@ public class HomeFragment extends Fragment {
             fab.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = getActivity().getPackageManager().getLaunchIntentForPackage("org.cyanogenmod.theme.chooser");
-                    if (intent == null) {
-                        Toast.makeText(getActivity(), getString(R.string.cm_not_installed), Toast.LENGTH_SHORT).show();
-                    } else {
-                        final String className = "com.pitchedapps.icons.utilities.CmThemeEngineLauncher";
-                        Class<?> cl = null;
-                        try {
-                            cl = Class.forName(className);
-                        } catch (ClassNotFoundException e) {
-                            Log.e("LAUNCHER CLASS MISSING", "Launcher class for: '" + className + "' missing!");
-                        }
-                        if (cl != null) {
-                            Constructor<?> constructor = null;
-                            try {
-                                constructor = cl.getConstructor(Context.class);
-                            } catch (NoSuchMethodException e) {
-                                Log.e("LAUNCHER CLASS CONS",
-                                        "Launcher class for: '" + className + "' is missing a constructor!");
-                            }
-                            try {
-                                if (constructor != null)
-                                    constructor.newInstance(getActivity());
-                            } catch (Exception e) {
-                                e.printStackTrace();
-                            }
-                        }
-
-                    }
+                    ((MainActivity) getActivity()).result.setSelectionByIdentifier(3);
+                    ((MainActivity) getActivity()).switchFragment(3, getResources().getString(R.string.section_three), "Apply");
                 }
 
 

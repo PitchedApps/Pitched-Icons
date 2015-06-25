@@ -1,7 +1,6 @@
 package com.pitchedapps.icons.activities;
 
 import android.annotation.SuppressLint;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
@@ -30,20 +29,20 @@ import com.mikepenz.materialdrawer.model.DividerDrawerItem;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
-import com.mikepenz.materialdrawer.model.interfaces.Nameable;
 import com.pitchedapps.icons.BuildConfig;
 import com.pitchedapps.icons.R;
 import com.pitchedapps.icons.adapters.ChangelogAdapter;
+import com.pitchedapps.icons.fragments.DonationsFragment;
 import com.pitchedapps.icons.utilities.Preferences;
 import com.pitchedapps.icons.utilities.Util;
 import com.pkmmte.requestmanager.PkRequestManager;
 import com.pkmmte.requestmanager.RequestSettings;
 
-//import org.sufficientlysecure.donations.DonationsFragment;
-import com.pitchedapps.icons.fragments.DonationsFragment;
 import org.sufficientlysecure.donations.google.util.IabHelper;
 import org.sufficientlysecure.donations.google.util.IabResult;
 import org.sufficientlysecure.donations.google.util.Inventory;
+
+//import org.sufficientlysecure.donations.DonationsFragment;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -76,11 +75,11 @@ public class MainActivity extends AppCompatActivity {
     private String[] mGoogleCatalog;
     private String thaApp;
     private String thaPreviews;
+    private String thaApply;
     private String thaWalls;
     private String thaRequest;
     private String thaDonate;
     private String thaCredits;
-    private String thaInfo;
     private int currentItem = -1;
     private boolean firstrun, enable_features;
     private Preferences mPrefs;
@@ -100,14 +99,6 @@ public class MainActivity extends AppCompatActivity {
                 .emailPrecontent(getResources().getString(R.string.request_precontent))
                 .saveLocation(Environment.getExternalStorageDirectory().getAbsolutePath() + getResources().getString(R.string.request_save_location))
                 .appfilterName(getResources().getString(R.string.request_appfilter))
-//                .compressFormat(PkRequestManager.PNG)
-//                .appendInformation(true)
-//                .createAppfilter(true)
-//                .createZip(true)
-                //TODO add filter
-//                .filterDefined(true)
-//                .byteBuffer(2048)
-//                .compressQuality(100)
                 .build());
 
         // Load apps ahead of time
@@ -124,11 +115,11 @@ public class MainActivity extends AppCompatActivity {
         thaApp = getResources().getString(R.string.app_name);
         String thaHome = getResources().getString(R.string.section_one);
         thaPreviews = getResources().getString(R.string.section_two);
+        thaApply = getResources().getString(R.string.section_three);
         thaWalls = getResources().getString(R.string.section_four);
         thaRequest = getResources().getString(R.string.section_five);
         thaDonate = getResources().getString(R.string.donate);
         thaCredits = getResources().getString(R.string.section_six);
-        thaInfo = getResources().getString(R.string.section_eight);
 
         headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
@@ -151,10 +142,12 @@ public class MainActivity extends AppCompatActivity {
                 .addDrawerItems(
                         new PrimaryDrawerItem().withName(thaHome).withIcon(GoogleMaterial.Icon.gmd_home).withIdentifier(1),
                         new PrimaryDrawerItem().withName(thaPreviews).withIcon(GoogleMaterial.Icon.gmd_palette).withIdentifier(2),
-                        new PrimaryDrawerItem().withName(thaInfo).withIcon(GoogleMaterial.Icon.gmd_info).withIdentifier(3),
+                        new PrimaryDrawerItem().withName(thaApply).withIcon(GoogleMaterial.Icon.gmd_open_in_browser).withIdentifier(3),
+                        new PrimaryDrawerItem().withName(thaWalls).withIcon(GoogleMaterial.Icon.gmd_landscape).withIdentifier(4),
+                        new PrimaryDrawerItem().withName(thaRequest).withIcon(GoogleMaterial.Icon.gmd_forum).withIdentifier(5),
                         new DividerDrawerItem(),
-                        new SecondaryDrawerItem().withName(thaDonate).withIdentifier(5),
-                        new SecondaryDrawerItem().withName(thaCredits).withIdentifier(6)
+                        new SecondaryDrawerItem().withName(thaDonate).withIdentifier(6),
+                        new SecondaryDrawerItem().withName(thaCredits).withIdentifier(7)
                 )
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
@@ -168,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
                                     switchFragment(2, thaPreviews, "Previews");
                                     break;
                                 case 3:
-                                    switchFragment(3, thaInfo, "Info");
+                                    switchFragment(3, thaApply, "Apply");
                                     break;
                                 case 4:
                                     if (Util.hasNetwork(MainActivity.this)) {
@@ -178,27 +171,18 @@ public class MainActivity extends AppCompatActivity {
                                     }
                                     break;
                                 case 5:
-                                    switchFragment(5, thaDonate, "Donate");
+                                    if (mIsPremium) {
+                                        switchFragment(5, thaRequest, "Requests");
+                                    } else {
+                                        notPremiumDialog();
+                                    }
                                     break;
                                 case 6:
-                                    switchFragment(6, thaCredits, "Credits");
+                                    switchFragment(6, thaDonate, "Donate");
                                     break;
-                            }
-                        }
-                        return false;
-                    }
-                })
-                .withOnDrawerItemLongClickListener(new Drawer.OnDrawerItemLongClickListener() {
-                    @Override
-                    public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l, IDrawerItem iDrawerItem) {
-//check this
-                        if (iDrawerItem instanceof Nameable) {
-                            if (((Nameable) iDrawerItem).getName().equals(thaPreviews)) {
-                                if (mIsPremium) {
-                                    switchFragment(-1, thaRequest, "Request");
-                                    result.closeDrawer();
-                                    return true;
-                                }
+                                case 7:
+                                    switchFragment(7, thaCredits, "Credits");
+                                    break;
                             }
                         }
                         return false;
@@ -208,7 +192,6 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         result.getListView().setVerticalScrollBarEnabled(false);
-        runLicenseChecker();
 
         if (savedInstanceState == null) {
             currentItem = -1;
@@ -287,7 +270,6 @@ public class MainActivity extends AppCompatActivity {
         } else if (title.equals(thaRequest)) {
             getSupportFragmentManager().beginTransaction()
                     .setCustomAnimations(android.R.anim.slide_in_left, android.R.anim.slide_out_right)
-                    //TODO fix error
                     .replace(R.id.main, Fragment.instantiate(MainActivity.this, "com.pkmmte.requestmanager.RequestFragment"))
                     .commit();
         } else {
@@ -373,39 +355,22 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    private void addItemsToDrawer() {
-        IDrawerItem walls = new PrimaryDrawerItem().withName(thaWalls).withIcon(GoogleMaterial.Icon.gmd_landscape).withIdentifier(4);
-        if (enable_features) {
-            result.addItem(walls, 3);
-        }
-    }
-
-    private void runLicenseChecker() {
-        if (firstrun) {
-            if (WITH_LICENSE_CHECKER) {
-                checkLicense();
-            } else {
-                mPrefs.setFeaturesEnabled(true);
-                addItemsToDrawer();
-                showChangelogDialog();
-            }
-        } else {
-            if (WITH_LICENSE_CHECKER) {
-                if (!enable_features) {
-                    showNotLicensedDialog();
-                } else {
-                    addItemsToDrawer();
-                    showChangelogDialog();
-                }
-            } else {
-                addItemsToDrawer();
-                showChangelogDialog();
-            }
-        }
-    }
-
     public boolean isPremium() {
         return mIsPremium;
+    }
+
+    private void notPremiumDialog() {
+        new MaterialDialog.Builder(this)
+                .title(R.string.no_premium_title)
+                .content(R.string.no_premium_content)
+                .positiveText(R.string.donate)
+                .negativeText(R.string.close)
+                .callback(new MaterialDialog.ButtonCallback() {
+                    @Override
+                    public void onPositive(MaterialDialog dialog) {
+                        switchFragment(5, thaDonate, "Donate");
+                    }
+                }).show();
     }
 
     private void showChangelog() {
@@ -458,66 +423,6 @@ public class MainActivity extends AppCompatActivity {
                         int nSelection = currentItem - 1;
                         if (result != null)
                             result.setSelection(nSelection);
-                    }
-                }).show();
-    }
-
-    private void checkLicense() {
-        String installer = getPackageManager().getInstallerPackageName(getPackageName());
-        try {
-            if (installer.equals("com.google.android.feedback") ||
-                    installer.equals("com.android.vending")) {
-                new MaterialDialog.Builder(this)
-                        .title(R.string.license_success_title)
-                        .content(R.string.license_success)
-                        .positiveText(R.string.close)
-                        .callback(new MaterialDialog.ButtonCallback() {
-                            @Override
-                            public void onPositive(MaterialDialog dialog) {
-                                enable_features = true;
-                                mPrefs.setFeaturesEnabled(true);
-                                addItemsToDrawer();
-                                showChangelogDialog();
-                            }
-                        }).show();
-            } else {
-                showNotLicensedDialog();
-            }
-        } catch (Exception e) {
-            showNotLicensedDialog();
-        }
-    }
-
-    private void showNotLicensedDialog() {
-        enable_features = false;
-        mPrefs.setFeaturesEnabled(false);
-        new MaterialDialog.Builder(this)
-                .title(R.string.license_failed_title)
-                .content(R.string.license_failed)
-                .positiveText(R.string.download)
-                .negativeText(R.string.exit)
-                .callback(new MaterialDialog.ButtonCallback() {
-                    @Override
-                    public void onPositive(MaterialDialog dialog) {
-                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(MARKET_URL + getPackageName()));
-                        startActivity(browserIntent);
-                    }
-
-                    @Override
-                    public void onNegative(MaterialDialog dialog) {
-                        finish();
-                    }
-                })
-                .cancelListener(new DialogInterface.OnCancelListener() {
-                    @Override
-                    public void onCancel(DialogInterface dialog) {
-                        finish();
-                    }
-                })
-                .dismissListener(new DialogInterface.OnDismissListener() {
-                    @Override
-                    public void onDismiss(DialogInterface dialog) {
-                        finish();
                     }
                 }).show();
     }

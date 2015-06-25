@@ -2,9 +2,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
     <!-- MainActivity Strings -->
-    <string name="app_name">Material Glass</string>
+    <string name="app_name">Pitched Glass</string>
     <string name="app_long_name">Material Glass by Pitched Apps</string>
-    <string name="package_name">com.pitchedapps.icons.free</string>
+    <string name="package_name">com.pitchedapps.icons</string>
     <string name="theme_description">Pitched Apps is proud to present Material Glass, cm12\'s first and longest lasting theme!
         \nMade by 1 themer
         \nTweaked for 300+ hours
@@ -107,25 +107,6 @@
     <string name="walls_save_location">"/Material_Glass/Wallpapers/"</string>
     <string name="walls_prefix_name">Material_Glass_</string>
 
-
-    <!-- Messages shown when using LicenseChecker -->
-    <string name="license_failed">"You are not downloading Material Glass from the Google Play Store. You now have two options:"</string>
-    <string name="license_success">"Thank you for downloading Material Glass. If you like it, don't forget to rate and write a review at Google Play Store."</string>
-
-    <!-- Texts you don't want to get when user downloads that wallpapers -->
-    <!-- Examples: the url of the wall, and prefixes, etc. -->
-    <!-- It replaces the texts in the order as shown. I.e. url is
-    https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/Lines/Circles/Text/text/whatever/WallpaperName.png"
-     it will delete texts in this order:
-     1. https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/
-     2. Lines
-     3. Circles
-     4. Text
-     5. text
-     6. whatever
-     7. (Empty text won't replace anything else).
-     And at the end the only text that will stay is "WallpaperName.png" which will be the final name of downloaded file.
-     -->
     <string name="replace_one">"https://raw.githubusercontent.com/asdfasdfvful/Pitched-Wallpapers/master/Material_Glass/"</string>    <string name="replace_two">"Lines"</string>
     <string name="replace_three">"Material_Glass"</string>
     <string name="replace_four">"Text"</string>
