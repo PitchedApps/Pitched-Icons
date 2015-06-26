@@ -1,199 +1,159 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Desk ScollWallpaper="false" Version="1.0" VersionCode="1" Wallpaper="default_wallpaper"
-    WallpaperFill="0">
-    <!-- Common Style, for Icons -->
-    <CommonStyles>
-        <IconStyle>
-            <ShowItemLayer Halign="" Height="" Margins="{1,1,0,0}" Valign="" Width="">
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                    Margins="" />
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                    Margins="" />
-            </ShowItemLayer>
-            <Layer Halign="" Height="" Margins="{1,1,0,0}" Valign="" Width="" />
-            <ShowItemLayer Halign="" Height="" Margins="{1,1,0,0}" Valign="" Width="">
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                    Margins="" />
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                    Margins="" />
-            </ShowItemLayer>
-        </IconStyle>
-    </CommonStyles>
-    <Screen Source="screen.xml">
-        <!-- Screen Style -->
-        <ScreenStyles>
-            <ScreenIconStyle Halign="" Height="" Margins="{1,1,0,0}" ShowLightMode="1" TextHalign=""
-                TextValign="" Valign="" Width="">
-                <!-- Icon Background
-                <Wallpaper Identity="Icon_bg" Color="" Image="shortcut_selector" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
-                -->
-                <!--
-                Font Background
-                <Wallpaper Identity="Text_bg" Color="#B2F5B800" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
-                 -->
-            </ScreenIconStyle>
-            <FolderStyle>
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
-                    Image="folder_back" Margins="" />
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
-                    Identity="OpenFolder" Image="folder_open" Margins="" />
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color=""
-                    Fill="1" Identity="ColseFolder" Image="folder_close_up" Margins="" />
-            </FolderStyle>
-            <!-- Light Color -->
-            <Light Color="" Image="" Size="" />
-            <Font Color="" Size="" />
-            <TrashStyle Color="">
-                <Trashing Halign="" Image="" Margins="{1,1,0,0}" Valign="">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                </Trashing>
-                <Trashed Halign="" Image="" Margins="{1,1,0,0}" Valign="">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                </Trashed>
-            </TrashStyle>
-        </ScreenStyles>
-    </Screen>
-    <Indicator Source="indicator.xml">
-        <!-- Indicator -->
-        <IndicatorStyles ShowMode="1" WhenScreenCount="">
-            <!-- Dot Indicator，module：Desk、Preview -->
-            <IndicatorItem Height="24" Identity="Dots" Margins="{1,1,0,0}" Width="24">
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
-                    Identity="Selected" Image="screennow" Margins="" />
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
-                    Identity="UnSelected" Image="screenother" Margins="" />
-            </IndicatorItem>
-            <!-- Block Indicator -->
-            <IndicatorItem Height="" Identity="Slide" Margins="{1,1,0,0}" Width="">
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
-                    Identity="Selected" Image="screennow" Margins="" />
-            </IndicatorItem>
-        </IndicatorStyles>
-    </Indicator>
-    <Preview Source="preview.xml">
-        <PreviewStyles LineItemCount="3">
-            <!-- Current Screen -->
-            <Card Identity="CurrentScreen">
-                <Item Height="" Identity="Port" Margins="{1,1,0,0}" Width="">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                </Item>
-                <Item Height="" Identity="Land" Margins="{1,1,0,0}" Width="">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                </Item>
-            </Card>
-            <!-- Normal Screen -->
-            <Card Identity="NomalScreen">
-                <Item Height="" Identity="Port" Margins="{1,1,0,0}" Width="">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                </Item>
-                <Item Height="" Identity="Land" Margins="{1,1,0,0}" Width="">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                </Item>
-            </Card>
-            <!-- Add Screen -->
-            <Card Identity="AddScreen">
-                <Item Height="" Identity="Port" Margins="{1,1,0,0}" Width="">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                </Item>
-                <Item Height="" Identity="Land" Margins="{1,1,0,0}" Width="">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                </Item>
-            </Card>
-            <!-- Selected Screen -->
-            <Card Identity="FocusScreen">
-                <Item Height="" Identity="Port" Margins="{1,1,0,0}" Width="">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                </Item>
-                <Item Height="" Identity="Land" Margins="{1,1,0,0}" Width="">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                        Margins="" />
-                </Item>
-            </Card>
-            <!-- Home Screen -->
-            <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity="Home"
-                Image="" Margins="{0,0,0,0}" />
-            <!-- Other Screen -->
-            <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity="NotHome"
-                Image="" Margins="{0,0,0,0}" />
-            <!-- Remove -->
-            <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity="Colseing"
-                Image="" LandMardings="{0,0,0,0}" PortMargins="{0,0,0,0}" />
-            <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Identity="Colsed"
-                Image="" Margins="" />
-        </PreviewStyles>
-    </Preview>
-    <Dock Source="dock.xml">
-        <DockSetting Background="dock" BackgroundFill="1" IsBackground="true" RowCount="2" />
-        <Notifys>
-            <NotifyItem Key="SMS" KeyWord=".SMS" Value="true" />
-            <NotifyItem Key="CALL" KeyWord=".CALL" Value="true" />
-            <NotifyItem Key="GMAIL" KeyWord=".GMAIL" Value="true" />
-        </Notifys>
-        <DockStyles Color="#ffeb7F00" Height="" LineItemCount="5" Width="">
-            <DockIconStyle Halign="" Height="" Margins="{1,1,0,0}" Valign="" Width="" />
-            <!-- Change the default 5 Icons for GO Launcher -->
-            <SymtemDefualt>
-                <SymtemDockItem GestureIntent="" Index="0">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
-                        Image="phone" Margins="" />
-                </SymtemDockItem>
-                <SymtemDockItem GestureIntent="" Index="1">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
-                        Image="contacts" Margins="" />
-                </SymtemDockItem>
-                <SymtemDockItem GestureIntent="" Index="2">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
-                        Image="d_home" Margins="" />
-                </SymtemDockItem>
-                <SymtemDockItem GestureIntent="" Index="3">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
-                        Image="messaging" Margins="" />
-                </SymtemDockItem>
-                <SymtemDockItem GestureIntent="" Index="4">
-                    <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1"
-                        Image="browser" Margins="" />
-                </SymtemDockItem>
-            </SymtemDefualt>
-            <!-- + -->
-            <NoApplicationIcon GestureIntent="">
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image="d_add"
-                    Margins="" />
-            </NoApplicationIcon>
-            <!-- Blank -->
-            <NullIcon GestureIntent="">
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                    Margins="" />
-            </NullIcon>
-            <!-- Notification -->
-            <NotifyStyle Halign="" Margins="{1,1,0,0}" TextHalign="" TextValign="" Valign="">
-                <Wallpaper Border="1" BorderColor="" BorderLine="" Color="" Fill="1" Image=""
-                    Margins="" />
-            </NotifyStyle>
-        </DockStyles>
-    </Dock>
+<Desk Version="1.0" VersionCode="1" Wallpaper="default_wallpaper" ScollWallpaper="false" WallpaperFill="0">
+	<!-- Common Style, for Icons -->
+	<CommonStyles>
+		<IconStyle>
+			<ShowItemLayer  Valign=""  Halign="" Width="" Height=""  Margins="{1,1,0,0}">
+				<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+			</ShowItemLayer>
+			<Layer Width="" Height="" Valign=""  Halign=""  Margins="{1,1,0,0}" />
+			<ShowItemLayer  Valign=""  Halign="" Width="" Height=""  Margins="{1,1,0,0}">
+				<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+			</ShowItemLayer>
+		</IconStyle>
+	</CommonStyles>
+	<Screen Source="screen.xml">
+		<!-- Screen Style -->
+		<ScreenStyles>
+			<ScreenIconStyle ShowLightMode="1" Width="" Height="" Valign=""  
+				Halign=""  Margins="{1,1,0,0}" TextValign="" TextHalign="" 
+				>
+				<!-- Icon Background 
+				<Wallpaper Identity="Icon_bg" Color="" Image="shortcut_selector" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				-->
+				<!-- 
+				Font Background
+				<Wallpaper Identity="Text_bg" Color="#B2F5B800" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				 -->
+			</ScreenIconStyle>
+			<FolderStyle>
+				<Wallpaper Color="" Image="folder_back" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				<Wallpaper Identity="OpenFolder" Color="" Image="folder_open" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				<Wallpaper Identity="ColseFolder" Color="" Image="folder_close_up" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+			</FolderStyle>
+			<!-- Light Color -->
+			<Light Color="" Image="" Size=""/>
+			<Font Color="" Size="" />
+			<TrashStyle Color="">
+				<Trashing  Margins="{1,1,0,0}" Image="" Valign=""  Halign="">
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</Trashing>
+				<Trashed  Margins="{1,1,0,0}" Image="" Valign=""  Halign="">
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</Trashed>
+			</TrashStyle>
+		</ScreenStyles>
+	</Screen>
+	<Indicator Source="indicator.xml">
+		<!-- Indicator -->
+		<IndicatorStyles ShowMode="1" WhenScreenCount="" >
+			<!-- Dot Indicator，module：Desk、Preview -->
+			<IndicatorItem Identity="Dots" Margins="{1,1,0,0}" Width="24" Height="24" >
+				<Wallpaper Identity="Selected" Color="" Image="screennow" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				<Wallpaper Identity="UnSelected" Color="" Image="screenother" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+			</IndicatorItem>
+			<!-- Block Indicator -->
+			<IndicatorItem Identity="Slide" Margins="{1,1,0,0}" Width="" Height="" >
+				<Wallpaper Identity="Selected" Color="" Image="screennow" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+			</IndicatorItem>
+		</IndicatorStyles>
+	</Indicator>
+	<Preview Source="preview.xml">
+		<PreviewStyles LineItemCount="3">
+			<!-- Current Screen -->
+			<Card Identity="CurrentScreen">
+				<Item Identity="Port" Width="" Height=""  Margins="{1,1,0,0}">
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</Item>
+				<Item Identity="Land" Width="" Height=""  Margins="{1,1,0,0}">
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</Item>
+			</Card>
+			<!-- Normal Screen -->
+			<Card Identity="NomalScreen">
+				<Item Identity="Port" Width="" Height=""  Margins="{1,1,0,0}">
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</Item>
+				<Item Identity="Land" Width="" Height=""  Margins="{1,1,0,0}">
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</Item>
+			</Card>
+			<!-- Add Screen -->
+			<Card Identity="AddScreen">
+				<Item Identity="Port" Width="" Height=""  Margins="{1,1,0,0}">
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</Item>
+				<Item Identity="Land" Width="" Height=""  Margins="{1,1,0,0}">
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</Item>
+			</Card>
+			<!-- Selected Screen -->
+			<Card Identity="FocusScreen">
+				<Item Identity="Port" Width="" Height=""  Margins="{1,1,0,0}">
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</Item>
+				<Item Identity="Land" Width="" Height=""  Margins="{1,1,0,0}">
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+					<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</Item>
+			</Card>
+			<!-- Home Screen -->
+			<Wallpaper Identity="Home" Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins="{0,0,0,0}"/>
+			<!-- Other Screen -->
+			<Wallpaper Identity="NotHome" Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins="{0,0,0,0}"/>
+			<!-- Remove -->
+			<Wallpaper Identity="Colseing" Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" PortMargins="{0,0,0,0}" LandMardings="{0,0,0,0}"/>
+			<Wallpaper Identity="Colsed" Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+		</PreviewStyles>
+	</Preview>
+	<Dock Source="dock.xml">
+		<DockSetting RowCount="2" IsBackground="true" Background="dock" BackgroundFill="1"/>
+		<Notifys>
+			<NotifyItem Key="SMS" Value="true" KeyWord=".SMS" />
+			<NotifyItem Key="CALL" Value="true" KeyWord=".CALL" />
+			<NotifyItem Key="GMAIL" Value="true" KeyWord=".GMAIL" />
+		</Notifys>
+		<DockStyles Color="#ffeb7F00" Width="" Height="" LineItemCount="5">
+			<DockIconStyle Width="" Height="" Valign="" Halign=""  Margins="{1,1,0,0}" />
+			<!-- Change the default 5 Icons for GO Launcher -->
+			<SymtemDefualt>
+				<SymtemDockItem GestureIntent="" Index="0">
+					<Wallpaper Color="" Image="phone" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</SymtemDockItem>
+				<SymtemDockItem GestureIntent="" Index="1">
+					<Wallpaper Color="" Image="contacts" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</SymtemDockItem>
+				<SymtemDockItem GestureIntent="" Index="2">
+					<Wallpaper Color="" Image="d_home" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</SymtemDockItem>
+				<SymtemDockItem GestureIntent="" Index="3">
+					<Wallpaper Color="" Image="messaging" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</SymtemDockItem>
+				<SymtemDockItem GestureIntent="" Index="4">
+					<Wallpaper Color="" Image="browser" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+				</SymtemDockItem>
+			</SymtemDefualt>
+			<!-- + -->
+			<NoApplicationIcon GestureIntent="" >
+				<Wallpaper Color="" Image="d_add" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+			</NoApplicationIcon>
+			<!-- Blank -->
+			<NullIcon GestureIntent="">
+				<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+			</NullIcon>
+			<!-- Notification -->
+			<NotifyStyle Valign="" Halign="" TextValign="" TextHalign=""  Margins="{1,1,0,0}">
+				<Wallpaper Color="" Image="" Fill="1" Border="1" BorderColor="" BorderLine="" Margins=""/>
+			</NotifyStyle>
+		</DockStyles>
+	</Dock>
 </Desk>
