@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
                 .emailSubject(getResources().getString(R.string.email_request_subject))
                 .emailPrecontent(getResources().getString(R.string.request_precontent))
                 .saveLocation(Environment.getExternalStorageDirectory().getAbsolutePath() + getResources().getString(R.string.request_save_location))
-                .appfilterName(getResources().getString(R.string.request_appfilter))
+//                .appfilterName(getResources().getString(R.string.request_appfilter))
                 .build());
 
         // Load apps ahead of time
