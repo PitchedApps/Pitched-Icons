@@ -6,7 +6,7 @@
     <string name="section_two">Icons</string>
     <string name="section_three">Apply</string>
     <string name="section_four">Wallpapers</string>
-    <string name="section_five">Premium Icon Requests</string>
+    <string name="section_five">Icon Requests</string>
     <string name="section_six">About The App</string>
 
     <!-- Wallpapers Activity -->
@@ -93,6 +93,6 @@
     <string name="request_precontent">These apps are not themed. Thanks in advance.\n\n</string>
 
     <string name="no_premium_title">Premium Feature</string>
-    <string name="no_premium_content">You must donate first to access this feature!</string>
+    <string name="no_premium_content">You must donate first via the in app purchase to access this feature! (Paypal will not unlock this) However, please note that sending a request does not guarantee that the icons will be themed. The in app purchases are primarily for donations, but it gives you access to this small feature.</string>
 
 </resources>

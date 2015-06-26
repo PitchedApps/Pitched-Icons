@@ -10,10 +10,15 @@
 		
 	<!-- Mail subjects for simple e-mail and requests e-mail -->
     <string name="email_subject">Pitched Glass Support</string>
-    <string name="email_request_subject">Pitched Glass - Secret Icon Request</string>
+    <string name="email_request_subject">Pitched Glass - Premium Icon Request</string>
     <string name="request_save_location">"/Pitched_Glass/Requests"</string>
 	
 	<!-- Strings for Wallpapers -->
     <string name="walls_save_location">"/Pitched_Glass/Wallpapers/"</string>
     <string name="walls_prefix_name">Pitched_Glass_</string>
+
+    <!-- Tabs Names list -->
+    <string-array name="tabs">
+        <item>ALL</item>
+    </string-array>
 </resources>
