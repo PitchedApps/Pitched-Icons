@@ -41,10 +41,10 @@
 
     <string name="xda_title">XDA Thread</string>
     <string name="xda_content">Help the development and receive beta builds! Feedback is also welcome in this thread.</string>
-    <string name="xda_link">http://forum.xda-developers.com/google-nexus-5/themes-apps/theme-material-glass-t3005025</string>
+    <string name="xda_link">http://forum.xda-developers.com/showthread.php?t=2669405</string>
 
     <string name="donate_home_title">Donations</string>
-    <string name="donate_home_content">Donations are always appreciated, and help me justify the countless hours I spend on creating this theme, as well as supporting apps I don\'t use.</string>
+    <string name="donate_home_content">Donations are always appreciated, and help me justify the countless hours I spend on creating this icon pack.</string>
 
 
     <string name="app_one_title">@string/donate_home_title</string>
@@ -55,9 +55,9 @@
     <string name="app_two_content">@string/xda_content</string>
     <string name="app_two_package">@string/xda_link</string>
 
-    <string name="app_three_title">@string/pitched_glass_title</string>
-    <string name="app_three_content">@string/pitched_glass_content</string>
-    <string name="app_three_package">com.pitchedapps.icons.glass</string>
+    <string name="app_three_title">Material Glass</string>
+    <string name="app_three_content">Completely theme your phone with lollipop\'s first cm theme. Now supporting RRO layers!</string>
+    <string name="app_three_package">com.pitchedapps.material.glass.free</string>
 
     <string name="app_four_title">Team Black Out</string>
     <string name="app_four_content">Want more dark and clear apps? Check out Team Black Out\'s updater! It contains apps that are otherwise unthemeable by the theme chooser itself. (Please note that for apps themed by Material Glass, you must keep the stock app to maintain compatibility)</string>

@@ -27,7 +27,7 @@
         <item name="material_drawer_hint_text">@color/textt</item>
         <item name="material_drawer_divider">@color/divider</item>
         <item name="material_drawer_selected">@color/drawerr</item>
-        <item name="material_drawer_selected_text">@color/primary</item>
+        <item name="material_drawer_selected_text">@color/drawer_selected</item>
         <item name="material_drawer_header_selection_text">@color/text</item>
     </style>
 
