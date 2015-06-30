@@ -28,8 +28,8 @@
     <color name="actionbar">@color/primary</color>
     <color name="drawer_selected">@color/primary</color>
 
-    <color name="fab_unpressed">#1976d2</color>
-    <color name="fab_pressed">#1565c0</color>
+    <color name="fab_unpressed">@color/primary</color>
+    <color name="fab_pressed">@color/primary_dark</color>
     <color name="faboverlay">#80000000</color>
 
 

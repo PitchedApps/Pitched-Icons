@@ -558,6 +558,6 @@
         android:layout_marginBottom="@dimen/cards_padding"
         android:layout_marginEnd="@dimen/cards_padding"
         android:layout_marginRight="@dimen/cards_padding"
-        android:src="@drawable/ic_themes" />
+        android:src="@drawable/ic_apply_icons" />
 
 </RelativeLayout>

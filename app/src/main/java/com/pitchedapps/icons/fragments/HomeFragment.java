@@ -121,26 +121,19 @@ public class HomeFragment extends Fragment {
         });
 
         FloatingActionButton fab = (FloatingActionButton) root.findViewById(R.id.apply_btn);
-        Intent intent = getActivity().getPackageManager().getLaunchIntentForPackage("org.cyanogenmod.theme.chooser");
-        if (intent != null) {
-            fab.setVisibility(View.VISIBLE);
-            fab.setColorNormal(getResources().getColor(R.color.fab_unpressed));
-            fab.setColorPressed(getResources().getColor(R.color.fab_pressed));
-            fab.setColorRipple(getResources().getColor(R.color.semitransparent_white));
-            fab.show(true);
-            fab.attachToScrollView(content);
-            fab.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    ((MainActivity) getActivity()).result.setSelectionByIdentifier(3);
-                    ((MainActivity) getActivity()).switchFragment(3, getResources().getString(R.string.section_three), "Apply");
-                }
-
-
-            });
-        } else {
-            fab.setVisibility(View.GONE);
-        }
+        fab.setVisibility(View.VISIBLE);
+		fab.setColorNormal(getResources().getColor(R.color.fab_unpressed));
+		fab.setColorPressed(getResources().getColor(R.color.fab_pressed));
+		fab.setColorRipple(getResources().getColor(R.color.semitransparent_white));
+		fab.show(true);
+		fab.attachToScrollView(content);
+		fab.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				((MainActivity) getActivity()).result.setSelectionByIdentifier(3);
+				((MainActivity) getActivity()).switchFragment(3, getResources().getString(R.string.section_three), "Apply");
+			}
+		});
 
         return root;
     }

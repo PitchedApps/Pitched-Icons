@@ -19,6 +19,7 @@
 
     <!-- Tabs Names list -->
     <string-array name="tabs">
+        <item>NEW</item>
         <item>ALL</item>
     </string-array>
 </resources>

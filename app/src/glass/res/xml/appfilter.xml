@@ -3,8 +3,7 @@
     <scale factor="0.65" />
     <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="allapps" />
 	<item component="ComponentInfo{com.pitchedapps.icons.holo.shadows/com.pitchedapps.icons.holo.shadows.activity.MainActivity}" drawable="pitchshadowsh"/>
-	<item component="ComponentInfo{com.pitchedapps.icons.glass/com.pitchedapps.icons.glass.activity.MainActivity}" drawable="pitchedglass"/>
-	<item component="ComponentInfo{com.pitchedapps.icons.glass/com.pitchedapps.icons.glass.MainActivity}" drawable="pitchedglass"/>
+	<item component="ComponentInfo{com.pitchedapps.icons.glass/com.pitchedapps.icons.HomeActivity}" drawable="pitchedglass"/>
 	<item component="ComponentInfo{com.pitchedapps.icons.shadows/com.pitchedapps.icons.shadows.activity.MainActivity}" drawable="pitchshadows"/>
 	<item component="ComponentInfo{com.pitchedapps.icons.raging.shadows/com.pitchedapps.icons.raging.shadows.activity.MainActivity}" drawable="pitchshadowsr"/>
 	<item component="ComponentInfo{com.pitch.iconhelper/com.pitch.iconhelper.MainActivity}" drawable="pitchediconhelper"/>
@@ -3228,6 +3227,31 @@
 	<item component="ComponentInfo{com.amazon.windowshop/com.amazon.windowshop.home.HomeLauncherActivity}" drawable="amazon"/>
 	<item component="ComponentInfo{com.phyora.apps.reddit_now/com.phyora.apps.reddit_now.activities.ActivityRedditNow}" drawable="redditnow"/>
 	<item component="ComponentInfo{tv.twitch.android.viewer/tv.twitch.android.apps.SplashScreenActivity}" drawable="twitch"/>
-			
-		<!-- <item component="ComponentInfo{}" drawable="-->
+<!--06/29/2015-->
+	<item component="ComponentInfo{air.com.longo.Xiangqi.android.free/air.com.longo.Xiangqi.android.free.AppEntry}" drawable="action_chinese_chess__co_tuong"/>
+	<item component="ComponentInfo{com.rectangularsoftware.appmonger/com.rectangularsoftware.appmonger.ReportingActivity}" drawable="appmonger"/>
+	<item component="ComponentInfo{org.cyanogenmod.audiofx/org.cyanogenmod.audiofx.ActivityMusic}" drawable="audiofx"/>
+	<item component="ComponentInfo{tool.scanner/com.google.zxing.client.android.H5View}" drawable="barcode_scanner"/>
+	<item component="ComponentInfo{personal.jhjeong.app.battery/personal.jhjeong.app.battery.BatteryActivityS}" drawable="battery_info"/>
+	<item component="ComponentInfo{com.sonyericsson.digitalclockwidget2/com.sonyericsson.digitalclockwidget2.Info}" drawable="digital_clock_xperia"/>
+	<item component="ComponentInfo{com.fongo.dellvoice/com.fongo.dellvoice.SplashActivity}" drawable="fongo"/>
+	<item component="ComponentInfo{org.freegeof/org.freegeof.FreeGeoActivity}" drawable="freegeo"/>
+	<item component="ComponentInfo{com.goodmooddroid.gesturecontrol/com.gmd.gc.view.GestureActivity}" drawable="gmd_gesture_control"/>
+	<item component="ComponentInfo{lb.themike10452.hellscorekernelupdater/lb.themike10452.hellscorekernelupdater.Main}" drawable="hellscore_u2d"/>
+	<item component="ComponentInfo{com.herocraft.game.free.icerage/com.herocraft.game.free.icerage.Main}" drawable="ice_rage_hockey_free"/>
+	<item component="ComponentInfo{com.grarak.kerneladiutor/com.grarak.kerneladiutor.MainActivity}" drawable="kernel_adiutor"/>
+	<item component="ComponentInfo{com.lovejoy777.rroandlayersmanager/com.lovejoy777.rroandlayersmanager.menu}" drawable="layers"/>
+	<item component="ComponentInfo{pw.bastiaan.github/pw.bastiaan.github.ui.MainActivity}" drawable="modernhub"/>
+	<item component="ComponentInfo{com.moscrop.official/com.moscrop.official.MainActivity}" drawable="moscrop_secondary"/>
+	<item component="ComponentInfo{com.moscrop.official.test/com.moscrop.official.MainActivity}" drawable="moscrop_secondary"/>
+	<item component="ComponentInfo{software.simplicial.nebulous/software.simplicial.nebulous.application.MainActivity}" drawable="nebulous"/>
+	<item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler}" drawable="nova"/>
+	<item component="ComponentInfo{com.jahirfiquitiva.dashboardsample/com.jahirfiquitiva.dashboardsample.Home}" drawable="paperboard"/>
+	<item component="ComponentInfo{reddit.news/reddit.news.RedditNavigation}" drawable="relay_pro"/>
+	<item component="ComponentInfo{com.flextrick.settingssaverpro/com.flextrick.settingssaverpro.ScreenSlidePagerActivity}" drawable="rom_settings_backup_pro"/>
+	<item component="ComponentInfo{eu.thedarken.sdm/eu.thedarken.sdm.SDMMainActivity}" drawable="sd_maid"/>
+	<item component="ComponentInfo{nl.leonardsimonse.softreboot/nl.leonardsimonse.softreboot.MainActivity}" drawable="soft_reboot_root"/>
+	<item component="ComponentInfo{com.steel89ita.themedebugger/com.steel89ita.themedebugger.MainActivity}" drawable="theme_debugger"/>
+	<item component="ComponentInfo{dk.alroe.apps.WallpaperSaver_Paid/dk.alroe.apps.WallpaperSaverFree.view.activity.MainActivity}" drawable="wallpaper_saver"/>
+
 </resources> 

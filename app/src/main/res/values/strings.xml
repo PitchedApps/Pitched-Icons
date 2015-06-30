@@ -5,13 +5,10 @@
     <string name="app_name">Pitched Glass</string>
     <string name="app_long_name">Material Glass by Pitched Apps</string>
     <string name="package_name">com.pitchedapps.icons</string>
-    <string name="theme_description">Pitched Apps is proud to present Material Glass, cm12\'s first and longest lasting theme!
-        \nMade by 1 themer
-        \nTweaked for 300+ hours
-        \nUsed by 20 000+ users</string>
+    <string name="theme_description">MODIFY ME PLEASE</string>
     <!-- Muzei Stuff -->
     <string name="artsource_name">@string/app_name</string>
-    <string name="artsource_desc">Beautiful wallpapers for a beautiful theme</string>
+    <string name="artsource_desc">Beautiful wallpapers for a beautiful icon pack</string>
     <string name="muzei_settings">Muzei Settings</string>
     <string name="json_file_url">"https://raw.githubusercontent.com/asdfasdfvful/Pitched-Wallpapers/master/Material_Glass/0wallpapers.json"</string>    <!-- Sharing wallpaper from Muzei -->
     <string name="partone">"My wallpaper for today is "</string>
@@ -69,7 +66,7 @@
     <string name="iconpack_designer">Pitched Apps</string>
     <string name="iconpack_designer_desc">
          <![CDATA[
-        <b>Allan W</b> or asdfasdfvful on xda, is an avid themer who has spent countless hours in hopes of creating the best cm theme ever.
+        <b>Allan W</b> or asdfasdfvful on xda, is an avid themer who has spent countless hours in hopes of creating the best icon packs and themes ever.
         ]]>
     </string>
     <!-- A link to your web page, if you have one -->

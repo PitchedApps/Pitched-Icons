@@ -24,7 +24,7 @@ public class PreviewsFragment extends Fragment {
         ActionBar toolbar = ((AppCompatActivity) getActivity()).getSupportActionBar();
         if (toolbar != null)
             toolbar.setTitle(R.string.section_two);
-//TODO remove tabs
+
         ViewPager mPager = (ViewPager) root.findViewById(R.id.pager);
         mPager.setAdapter(new MyPagerAdapter(getActivity().getSupportFragmentManager()));
 
@@ -71,19 +71,10 @@ public class PreviewsFragment extends Fragment {
         public Fragment getItem(int position) {
             Fragment f = new Fragment();
             switch (position) {
-//                case 0:
-//                    f = IconsFragment.newInstance(R.array.system);
-//                    break;
-//                case 1:
-//                    f = IconsFragment.newInstance(R.array.google);
-//                    break;
-//                case 2:
-//                    f = IconsFragment.newInstance(R.array.user);
-//                    break;
-//                case 3:
-//                    f = IconsFragment.newInstance(R.array.xposed);
-//                    break;
                 case 0:
+                    f = IconsFragment.newInstance(R.array.latesticons);
+                    break;
+                case 1:
                     f = IconsFragment.newInstance(R.array.icon_pack);
                     break;
             }

@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="fullchangelog">
+        <item>@array/v2</item>
+        <item>@array/v1</item>
         <item>@array/v0</item>
+    </string-array>
+
+    <string-array name="v">
+        <item>v</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="v2">
+        <item>v6.2.0</item>
+        <item></item>
+        <item>Redid in app drawables</item>
+    </string-array>
+
+    <string-array name="v1">
+        <item>v6.1.0</item>
+        <item>Added 24 icons</item>
+        <item>Readded new icon section</item>
+        <item>Added FAB for applying</item>
+        <item>Fixed up some strings</item>
     </string-array>
 
     <string-array name="v0">
