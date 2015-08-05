@@ -13,7 +13,8 @@
 
     <string-array name="v2">
         <item>v6.2.0</item>
-        <item></item>
+        <item>Added 24 icons</item>
+        <item>Tweaked the request tool to make my life easier</item>
         <item>Redid in app drawables</item>
     </string-array>
 
