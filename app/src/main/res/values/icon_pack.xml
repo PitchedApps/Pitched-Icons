@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-   <string-array name="latesticons">
-       <item>action_chinese_chess__co_tuong</item>
-       <item>appmonger</item>
-       <item>audiofx</item>
-       <item>barcode_scanner</item>
-       <item>battery_info</item>
-       <item>digital_clock_xperia</item>
-       <item>fongo</item>
-       <item>freegeo</item>
-       <item>gmd_gesture_control</item>
-       <item>hellscore_u2d</item>
-       <item>ice_rage_hockey_free</item>
-       <item>kernel_adiutor</item>
-       <item>layers</item>
-       <item>modernhub</item>
-       <item>moscrop_secondary</item>
-       <item>nebulous</item>
-       <item>nova_launcher</item>
-       <item>paperboard</item>
-       <item>relay_pro</item>
-       <item>rom_settings_backup_pro</item>
-       <item>sd_maid</item>
-       <item>soft_reboot_root</item>
-       <item>theme_debugger</item>
-       <item>wallpaper_saver</item>
-   </string-array>
+    <string-array name="latesticons">
+        <item>agario</item>
+        <item>batterydrain</item>
+        <item>cops_and_robbers</item>
+        <item>flynx</item>
+        <item>google_messenger</item>
+        <item>headset_controller</item>
+        <item>layers_showcase</item>
+        <item>material_glass</item>
+        <item>matlog</item>
+        <item>music_cm</item>
+        <item>pedometer</item>
+        <item>play_store_changelog</item>
+        <item>psiphon</item>
+        <item>snapprefs</item>
+        <item>sudoku_free</item>
+        <item>supersu</item>
+        <item>themes_cm</item>
+        <item>total_commander</item>
+        <item>volume_boost_for_nexus_5</item>
+        <item>wifikeyview</item>
+        <item>xinstaller</item>
+        <item>zaycevnet</item>
+    </string-array>
    <string-array name="icon_pack" translatable="true">
        <item>a100balls</item>
        <item>a119</item>
@@ -90,6 +88,7 @@
        <item>afterfocuspro</item>
        <item>afwall</item>
        <item>afwalldonate</item>
+       <item>agario</item>
        <item>agent</item>
        <item>aide</item>
        <item>aikforum</item>
@@ -308,6 +307,7 @@
        <item>batterycalibration</item>
        <item>batterycalibrationproffesionals</item>
        <item>batterydoctor</item>
+       <item>batterydrain</item>
        <item>batteryguru</item>
        <item>batterymonitorwidgetpro</item>
        <item>batteryrefresh</item>
@@ -589,6 +589,7 @@
        <item>cooltool</item>
        <item>cooltoolpro</item>
        <item>copilotgps</item>
+       <item>cops_and_robbers</item>
        <item>copy</item>
        <item>copyyoursmiley</item>
        <item>copyyoursmileyunlocker</item>
@@ -915,6 +916,7 @@
        <item>flowfree</item>
        <item>flowlypro</item>
        <item>fluidse</item>
+       <item>flynx</item>
        <item>fmh2014</item>
        <item>fmlofficial</item>
        <item>fmradio</item>
@@ -1060,6 +1062,7 @@
        <item>googleskymap</item>
        <item>googletranslate</item>
        <item>googlevoice</item>
+       <item>google_messenger</item>
        <item>goolorssquare</item>
        <item>goomanager</item>
        <item>gosmspro</item>
@@ -1129,6 +1132,7 @@
        <item>hdrcamera</item>
        <item>hdwidgets</item>
        <item>headsetbuttoncontroller</item>
+       <item>headset_controller</item>
        <item>headsoccer</item>
        <item>headsup</item>
        <item>hearingphantomfree</item>
@@ -1332,6 +1336,7 @@
        <item>lastpass</item>
        <item>launcherpro</item>
        <item>layers</item>
+       <item>layers_showcase</item>
        <item>lazada</item>
        <item>ldbrowser</item>
        <item>leafly</item>
@@ -1412,6 +1417,8 @@
        <item>mapswithmepro</item>
        <item>marmiton</item>
        <item>matchcom</item>
+       <item>material_glass</item>
+       <item>matlog</item>
        <item>mattx</item>
        <item>maxgo</item>
        <item>maxmatch</item>
@@ -1559,6 +1566,7 @@
        <item>musicomichsoft</item>
        <item>musicsec</item>
        <item>musicvisualizer</item>
+       <item>music_cm</item>
        <item>musixmatch</item>
        <item>muvemusic</item>
        <item>muyinteresante</item>
@@ -1838,6 +1846,7 @@
        <item>playstation</item>
        <item>playstore</item>
        <item>playto</item>
+       <item>play_store_changelog</item>
        <item>pleco</item>
        <item>plex</item>
        <item>plume</item>
@@ -1887,6 +1896,7 @@
        <item>progressive</item>
        <item>propmodder</item>
        <item>psafetotal</item>
+       <item>psiphon</item>
        <item>pstouch</item>
        <item>puddingmonstershd</item>
        <item>puptox</item>
@@ -2182,6 +2192,7 @@
        <item>snapchat</item>
        <item>snapcolors</item>
        <item>snapgallery</item>
+       <item>snapprefs</item>
        <item>snapsave</item>
        <item>snapseed</item>
        <item>snapshare</item>
@@ -2291,6 +2302,7 @@
        <item>sudokufree</item>
        <item>sudokulenovo</item>
        <item>sudokusolver</item>
+       <item>sudoku_free</item>
        <item>sunbeam</item>
        <item>sunrise</item>
        <item>suntrust</item>
@@ -2400,6 +2412,7 @@
        <item>thememanager</item>
        <item>themer</item>
        <item>themespotlight</item>
+       <item>themes_cm</item>
        <item>themex</item>
        <item>theme_debugger</item>
        <item>thenightsky</item>
@@ -2452,6 +2465,7 @@
        <item>torque</item>
        <item>torrentsearchsettings</item>
        <item>totalmeltdown</item>
+       <item>total_commander</item>
        <item>touchcalendar</item>
        <item>touchcontrol</item>
        <item>touchpad</item>
@@ -2625,6 +2639,7 @@
        <item>voicerecordersec</item>
        <item>voicesearch</item>
        <item>voicetoggles</item>
+       <item>volume_boost_for_nexus_5</item>
        <item>vouchercloud</item>
        <item>voxel</item>
        <item>voxelrush</item>
@@ -2717,6 +2732,7 @@
        <item>wififileexplorerpro</item>
        <item>wififiletransferpro</item>
        <item>wififinder</item>
+       <item>wifikeyview</item>
        <item>wifikill</item>
        <item>wifinspect</item>
        <item>wifioverview360pro</item>
@@ -2772,6 +2788,7 @@
        <item>xfinitytv</item>
        <item>xhalofloatingwindow</item>
        <item>xing</item>
+       <item>xinstaller</item>
        <item>xmultiwindow</item>
        <item>xperialink</item>
        <item>xperialounge</item>
@@ -2812,6 +2829,7 @@
        <item>zapzap</item>
        <item>zarchiver</item>
        <item>zattootv</item>
+       <item>zaycevnet</item>
        <item>zedge</item>
        <item>zeldawindwakerlivewallpaperhd</item>
        <item>zello</item>

@@ -14,9 +14,10 @@
 	<item component="ComponentInfo{com.pitchedapps.icons.raging.shadows/com.pitchedapps.icons.raging.shadows.wallpaper.LauncherActivity}" drawable="pitchwall"/>
 	<item component="ComponentInfo{com.pitchedapps.icons.holo.shadows/com.pitchedapps.icons.holo.shadows.wallpaper.LauncherActivity}" drawable="pitchwall"/>
 	<item component="ComponentInfo{com.pitch.donate/com.pitch.donate.MainActivity}" drawable="pitchdonate"/>
-	
-	
-<!--pitch ends-->	
+
+	<item component="ComponentInfo{com.pitchedapps.material.glass.free/com.pitchedapps.material.glass.free.HomeActivity}" drawable="material_glass"/>
+
+	<!--pitch ends-->
 				
 	<item component="ComponentInfo{air.air.com.tabc.gsn/air.air.com.tabc.gsn.AppEntry}" drawable="biblegame"/>
 	<item component="ComponentInfo{air.au.com.metro.DumbWaysToDie/air.au.com.metro.DumbWaysToDie.AppEntry}" drawable="dumbwaystodie" /> 
@@ -3253,5 +3254,31 @@
 	<item component="ComponentInfo{nl.leonardsimonse.softreboot/nl.leonardsimonse.softreboot.MainActivity}" drawable="soft_reboot_root"/>
 	<item component="ComponentInfo{com.steel89ita.themedebugger/com.steel89ita.themedebugger.MainActivity}" drawable="theme_debugger"/>
 	<item component="ComponentInfo{dk.alroe.apps.WallpaperSaver_Paid/dk.alroe.apps.WallpaperSaverFree.view.activity.MainActivity}" drawable="wallpaper_saver"/>
+<!--08/05/2015-->
+	<item component="ComponentInfo{com.miniclip.agar.io/com.miniclip.agar.io.AgarioActivity}" drawable="agario"/>
+	<item component="ComponentInfo{com.WazaBe.android.BatteryDrain/com.WazaBe.android.BatteryDrain.BatteryDrainActivity}" drawable="batterydrain"/>
+	<item component="ComponentInfo{com.boombit.CopsAndRobbers/com.prime31.UnityPlayerNativeActivity}" drawable="cops_and_robbers"/>
+	<item component="ComponentInfo{de.defim.apk.customshare/de.defim.apk.customshare.Launch0}" drawable="customshare"/>
+	<item component="ComponentInfo{com.flynx/com.flynx.MainActivity}" drawable="flynx"/>
+	<item component="ComponentInfo{com.danez.headphonecontroller/com.danez.headphonecontroller.HeadSetController}" drawable="headset_controller"/>
+	<item component="ComponentInfo{com.lovejoy777.rroandlayersmanager/com.lovejoy777.rroandlayersmanager.MainActivity}" drawable="layers"/>
+	<item component="ComponentInfo{com.lovejoy777.showcase/com.lovejoy777.showcase.MainActivity}" drawable="layers_showcase"/>
+	<item component="ComponentInfo{com.pluscubed.logcat/com.pluscubed.logcat.ui.LogcatActivity}" drawable="matlog"/>
+	<item component="ComponentInfo{com.cyanogenmod.eleven/com.cyanogenmod.eleven.ui.activities.HomeActivity}" drawable="music_cm"/>
+	<item component="ComponentInfo{com.dhm47.nativeclipboard/com.dhm47.nativeclipboard.Setting}" drawable="nativeclipboard"/>
+	<item component="ComponentInfo{com.ivon.pedometer/com.ivon.pedometercommon.ui.MainActivity}" drawable="pedometer"/>
+	<item component="ComponentInfo{com.p1ngu1n.playstorechangelog/com.p1ngu1n.playstorechangelog.SettingsActivity-Alias}" drawable="play_store_changelog"/>
+	<item component="ComponentInfo{com.psiphon3/com.psiphon3.StatusActivity}" drawable="psiphon"/>
+	<item component="ComponentInfo{com.marz.snapprefs/com.marz.snapprefs.MainActivity}" drawable="snapprefs"/>
+	<item component="ComponentInfo{uk.co.aifactory.sudokufree/uk.co.aifactory.sudokufree.SudokuFreeActivity}" drawable="sudoku_free"/>
+	<item component="ComponentInfo{com.n5rvb.nexus5realvolumebooster/com.n5rvb.nexus5realvolumebooster.MainActivity}" drawable="volume_boost_for_nexus_5"/>
+	<item component="ComponentInfo{com.whd.wifikeyview/com.whd.wifikeyview.preferences.SettingsActivity-Alias}" drawable="wifikeyview"/>
+	<item component="ComponentInfo{com.pyler.xinstaller/com.pyler.xinstaller.Settings}" drawable="xinstaller"/>
+	<item component="ComponentInfo{eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Material}" drawable="supersu"/>
+	<item component="ComponentInfo{org.cyanogenmod.theme.chooser/org.cyanogenmod.theme.chooser.ChooserActivity}" drawable="themes_cm"/>
+	<item component="ComponentInfo{com.ghisler.android.TotalCommander/com.ghisler.android.TotalCommander.TotalCommander}" drawable="total_commander"/>
+	<item component="ComponentInfo{free.zaycev.net/free.zaycev.net.StartScreen}" drawable="zaycevnet"/>
+	<item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="google_messenger"/>
+	<item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="googleplusphotos"/>
 
 </resources> 

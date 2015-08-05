@@ -66,6 +66,7 @@
        <item drawable="afterfocuspro"/>
        <item drawable="afwall"/>
        <item drawable="afwalldonate"/>
+       <item drawable="agario"/>
        <item drawable="agent"/>
        <item drawable="aide"/>
        <item drawable="aikforum"/>
@@ -284,6 +285,7 @@
        <item drawable="batterycalibration"/>
        <item drawable="batterycalibrationproffesionals"/>
        <item drawable="batterydoctor"/>
+       <item drawable="batterydrain"/>
        <item drawable="batteryguru"/>
        <item drawable="batterymonitorwidgetpro"/>
        <item drawable="batteryrefresh"/>
@@ -565,6 +567,7 @@
        <item drawable="cooltool"/>
        <item drawable="cooltoolpro"/>
        <item drawable="copilotgps"/>
+       <item drawable="cops_and_robbers"/>
        <item drawable="copy"/>
        <item drawable="copyyoursmiley"/>
        <item drawable="copyyoursmileyunlocker"/>
@@ -891,6 +894,7 @@
        <item drawable="flowfree"/>
        <item drawable="flowlypro"/>
        <item drawable="fluidse"/>
+       <item drawable="flynx"/>
        <item drawable="fmh2014"/>
        <item drawable="fmlofficial"/>
        <item drawable="fmradio"/>
@@ -1036,6 +1040,7 @@
        <item drawable="googleskymap"/>
        <item drawable="googletranslate"/>
        <item drawable="googlevoice"/>
+       <item drawable="google_messenger"/>
        <item drawable="goolorssquare"/>
        <item drawable="goomanager"/>
        <item drawable="gosmspro"/>
@@ -1105,6 +1110,7 @@
        <item drawable="hdrcamera"/>
        <item drawable="hdwidgets"/>
        <item drawable="headsetbuttoncontroller"/>
+       <item drawable="headset_controller"/>
        <item drawable="headsoccer"/>
        <item drawable="headsup"/>
        <item drawable="hearingphantomfree"/>
@@ -1308,6 +1314,7 @@
        <item drawable="lastpass"/>
        <item drawable="launcherpro"/>
        <item drawable="layers"/>
+       <item drawable="layers_showcase"/>
        <item drawable="lazada"/>
        <item drawable="ldbrowser"/>
        <item drawable="leafly"/>
@@ -1388,6 +1395,8 @@
        <item drawable="mapswithmepro"/>
        <item drawable="marmiton"/>
        <item drawable="matchcom"/>
+       <item drawable="material_glass"/>
+       <item drawable="matlog"/>
        <item drawable="mattx"/>
        <item drawable="maxgo"/>
        <item drawable="maxmatch"/>
@@ -1535,6 +1544,7 @@
        <item drawable="musicomichsoft"/>
        <item drawable="musicsec"/>
        <item drawable="musicvisualizer"/>
+       <item drawable="music_cm"/>
        <item drawable="musixmatch"/>
        <item drawable="muvemusic"/>
        <item drawable="muyinteresante"/>
@@ -1814,6 +1824,7 @@
        <item drawable="playstation"/>
        <item drawable="playstore"/>
        <item drawable="playto"/>
+       <item drawable="play_store_changelog"/>
        <item drawable="pleco"/>
        <item drawable="plex"/>
        <item drawable="plume"/>
@@ -1863,6 +1874,7 @@
        <item drawable="progressive"/>
        <item drawable="propmodder"/>
        <item drawable="psafetotal"/>
+       <item drawable="psiphon"/>
        <item drawable="pstouch"/>
        <item drawable="puddingmonstershd"/>
        <item drawable="puptox"/>
@@ -2158,6 +2170,7 @@
        <item drawable="snapchat"/>
        <item drawable="snapcolors"/>
        <item drawable="snapgallery"/>
+       <item drawable="snapprefs"/>
        <item drawable="snapsave"/>
        <item drawable="snapseed"/>
        <item drawable="snapshare"/>
@@ -2267,6 +2280,7 @@
        <item drawable="sudokufree"/>
        <item drawable="sudokulenovo"/>
        <item drawable="sudokusolver"/>
+       <item drawable="sudoku_free"/>
        <item drawable="sunbeam"/>
        <item drawable="sunrise"/>
        <item drawable="suntrust"/>
@@ -2376,6 +2390,7 @@
        <item drawable="thememanager"/>
        <item drawable="themer"/>
        <item drawable="themespotlight"/>
+       <item drawable="themes_cm"/>
        <item drawable="themex"/>
        <item drawable="theme_debugger"/>
        <item drawable="thenightsky"/>
@@ -2428,6 +2443,7 @@
        <item drawable="torque"/>
        <item drawable="torrentsearchsettings"/>
        <item drawable="totalmeltdown"/>
+       <item drawable="total_commander"/>
        <item drawable="touchcalendar"/>
        <item drawable="touchcontrol"/>
        <item drawable="touchpad"/>
@@ -2601,6 +2617,7 @@
        <item drawable="voicerecordersec"/>
        <item drawable="voicesearch"/>
        <item drawable="voicetoggles"/>
+       <item drawable="volume_boost_for_nexus_5"/>
        <item drawable="vouchercloud"/>
        <item drawable="voxel"/>
        <item drawable="voxelrush"/>
@@ -2693,6 +2710,7 @@
        <item drawable="wififileexplorerpro"/>
        <item drawable="wififiletransferpro"/>
        <item drawable="wififinder"/>
+       <item drawable="wifikeyview"/>
        <item drawable="wifikill"/>
        <item drawable="wifinspect"/>
        <item drawable="wifioverview360pro"/>
@@ -2748,6 +2766,7 @@
        <item drawable="xfinitytv"/>
        <item drawable="xhalofloatingwindow"/>
        <item drawable="xing"/>
+       <item drawable="xinstaller"/>
        <item drawable="xmultiwindow"/>
        <item drawable="xperialink"/>
        <item drawable="xperialounge"/>
@@ -2788,6 +2807,7 @@
        <item drawable="zapzap"/>
        <item drawable="zarchiver"/>
        <item drawable="zattootv"/>
+       <item drawable="zaycevnet"/>
        <item drawable="zedge"/>
        <item drawable="zeldawindwakerlivewallpaperhd"/>
        <item drawable="zello"/>

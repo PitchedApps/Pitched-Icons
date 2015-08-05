@@ -5,4 +5,6 @@
     <color name="primary_pressed">#181818</color>
     <color name="drawer_selected">#ffcccccc</color>
 
+	<color name="fab_unpressed">#cc121212</color>
+    <color name="fab_pressed">#cc161616</color>
 </resources>
