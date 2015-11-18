@@ -70,7 +70,7 @@ public class HomeFragment extends Fragment {
         apponebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ((MainActivity) getActivity()).result.setSelectionByIdentifier(6);
+                ((MainActivity) getActivity()).result.setSelection(6);
                 ((MainActivity) getActivity()).switchFragment(6, getResources().getString(R.string.donate), "Donate");
             }
         });
@@ -130,7 +130,7 @@ public class HomeFragment extends Fragment {
 		fab.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				((MainActivity) getActivity()).result.setSelectionByIdentifier(3);
+				((MainActivity) getActivity()).result.setSelection(3);
 				((MainActivity) getActivity()).switchFragment(3, getResources().getString(R.string.section_three), "Apply");
 			}
 		});

@@ -17,9 +17,6 @@
     <string name="walls_save_location">"/Pitched_Glass/Wallpapers/"</string>
     <string name="walls_prefix_name">Pitched_Glass_</string>
 
-    <!-- Tabs Names list -->
-    <string-array name="tabs">
-        <item>NEW</item>
-        <item>ALL</item>
-    </string-array>
+
+    <string name="GOOGLE_PUBKEY">"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmvi7UAuk0SI0U5hVfEOJcvCEqmKU91MY6NafAF6RFf2JiFs02y25mZRAxJ3Jo5Pz5ildDNYIOnckAm1se+3xUFqHxPtrH9WTI0arZ2zrqbBp0S6mYw2MiE7xmVlbQpGwR/L8WnfIXo7HkoyFjgLhkknhu159+5SkHccFQOoioMByEKLFjTk0YbQvNlPkOWh9i0Krd6c/13Ohwu9hM26dEAnmgCENZX7FsnNARXbx13DFKRgW90RgOPoLVUSNOvtCoeYgUh0357DF+SW9zO82PktTeOtywWI5h1MWXtOMVMy9Hth+jSg7eCH7uTLJRy9tCkH+/TAk1LKDA3I64H0wkwIDAQAB"</string>
 </resources>

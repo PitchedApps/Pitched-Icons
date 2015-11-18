@@ -23,8 +23,8 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
-import com.mikepenz.materialdrawer.accountswitcher.AccountHeader;
-import com.mikepenz.materialdrawer.accountswitcher.AccountHeaderBuilder;
+import com.mikepenz.materialdrawer.AccountHeader;
+import com.mikepenz.materialdrawer.AccountHeaderBuilder;
 import com.mikepenz.materialdrawer.model.DividerDrawerItem;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Google
      */
-    private static final String GOOGLE_PUBKEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmvi7UAuk0SI0U5hVfEOJcvCEqmKU91MY6NafAF6RFf2JiFs02y25mZRAxJ3Jo5Pz5ildDNYIOnckAm1se+3xUFqHxPtrH9WTI0arZ2zrqbBp0S6mYw2MiE7xmVlbQpGwR/L8WnfIXo7HkoyFjgLhkknhu159+5SkHccFQOoioMByEKLFjTk0YbQvNlPkOWh9i0Krd6c/13Ohwu9hM26dEAnmgCENZX7FsnNARXbx13DFKRgW90RgOPoLVUSNOvtCoeYgUh0357DF+SW9zO82PktTeOtywWI5h1MWXtOMVMy9Hth+jSg7eCH7uTLJRy9tCkH+/TAk1LKDA3I64H0wkwIDAQAB";
+
     private static final String[] GOOGLE_CATALOG_FREE = new String[]{"glass.donation.1",
             "glass.donation.2", "glass.donation.3", "glass.donation.5", "glass.donation.10",
             "glass.donation.20"};
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                 )
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
-                    public boolean onItemClick(AdapterView<?> parent, View view, int position, long id, IDrawerItem drawerItem) {
+                    public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
                         if (drawerItem != null) {
                             switch (drawerItem.getIdentifier()) {
                                 case 1:
@@ -191,12 +191,12 @@ public class MainActivity extends AppCompatActivity {
                 .withSavedInstance(savedInstanceState)
                 .build();
 
-        result.getListView().setVerticalScrollBarEnabled(false);
+//        result.getListView().setVerticalScrollBarEnabled(false);
         showChangelogDialog();
 
         if (savedInstanceState == null) {
             currentItem = -1;
-            result.setSelectionByIdentifier(1);
+            result.setSelection(1);
         }
 
         //Setup donations
@@ -231,7 +231,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        mHelper = new IabHelper(MainActivity.this, GOOGLE_PUBKEY);
+        mHelper = new IabHelper(MainActivity.this, getResources().getString(R.string.GOOGLE_PUBKEY));
         mHelper.startSetup(new IabHelper.OnIabSetupFinishedListener() {
             public void onIabSetupFinished(IabResult result)
             {
@@ -261,7 +261,7 @@ public class MainActivity extends AppCompatActivity {
             getSupportActionBar().setTitle(title);
         if (title.equals(thaDonate)) {
             DonationsFragment donationsFragment;
-            donationsFragment = DonationsFragment.newInstance(BuildConfig.DEBUG, true, GOOGLE_PUBKEY, mGoogleCatalog,
+            donationsFragment = DonationsFragment.newInstance(BuildConfig.DEBUG, true, getResources().getString(R.string.GOOGLE_PUBKEY), mGoogleCatalog,
                     getResources().getStringArray(R.array.donation_google_catalog_values), true, PAYPAL_USER,
                     PAYPAL_CURRENCY_CODE, getString(R.string.donation_paypal_item), false, null, null, false, null);
             getSupportFragmentManager().beginTransaction()
@@ -293,7 +293,7 @@ public class MainActivity extends AppCompatActivity {
         if (result != null && result.isDrawerOpen()) {
             result.closeDrawer();
         } else if (result != null && currentItem != 1) {
-            result.setSelection(0);
+            result.setSelection(1);
         } else if (result != null) {
             super.onBackPressed();
         } else {
@@ -330,7 +330,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:" + getResources().getString(R.string.email_id)));
                 intent.putExtra(Intent.EXTRA_SUBJECT, getResources().getString(R.string.email_subject));
 
-                emailBuilder.append("\n \n \nOS Version: ").append(System.getProperty("os.version")).append("(").append(Build.VERSION.INCREMENTAL).append(")");
+                emailBuilder.append("Write here");
+                emailBuilder.append("\n \nOS Version: ").append(System.getProperty("os.version")).append("(").append(Build.VERSION.INCREMENTAL).append(")");
                 emailBuilder.append("\nOS API Level: ").append(Build.VERSION.SDK_INT);
                 emailBuilder.append("\nDevice: ").append(Build.DEVICE);
                 emailBuilder.append("\nManufacturer: ").append(Build.MANUFACTURER);

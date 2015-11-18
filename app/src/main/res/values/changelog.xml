@@ -1,12 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="fullchangelog">
+        <item>@array/v4</item>
+        <item>@array/v3</item>
+        <item>@array/v2</item>
+        <item>@array/v1</item>
         <item>@array/v0</item>
     </string-array>
 
+    <string-array name="v">
+        <item>v</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="v4">
+        <item>v6.3.0</item>
+        <item>Added 75 icons</item>
+    </string-array>
+
+    <string-array name="v3">
+        <item>v6.2.1</item>
+        <item>Added 49 icons, including many from microsoft</item>
+    </string-array>
+
+    <string-array name="v2">
+        <item>v6.2.0</item>
+        <item>Added 24 icons</item>
+        <item>Tweaked the request tool to make my life easier</item>
+        <item>Redid in app drawables</item>
+    </string-array>
+
+    <string-array name="v1">
+        <item>v6.1.0</item>
+        <item>Added 24 icons</item>
+        <item>Readded new icon section</item>
+        <item>Added FAB for applying</item>
+        <item>Fixed up some strings</item>
+    </string-array>
+
     <string-array name="v0">
-        <item>v0.0.1</item>
-        <item>test</item>
+        <item>v6.0.0</item>
+        <item>Pitched Glass is back! After being swamped by cm themes and layers, I thought it would be only fair to work on my very first android project again. Unfortunately, the other three packs are rapidly approaching the max cap of 50MB, so I\'ll only be updating this one. Bring forth the material design!</item>
     </string-array>
 
 </resources>

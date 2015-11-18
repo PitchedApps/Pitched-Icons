@@ -68,6 +68,7 @@
        <item drawable="afwalldonate"/>
        <item drawable="agario"/>
        <item drawable="agent"/>
+       <item drawable="aicp_ota"/>
        <item drawable="aide"/>
        <item drawable="aikforum"/>
        <item drawable="aikhockey"/>
@@ -106,6 +107,7 @@
        <item drawable="amazonkindle"/>
        <item drawable="amazonlocal"/>
        <item drawable="amazonmp3"/>
+       <item drawable="amazon_compras"/>
        <item drawable="amex"/>
        <item drawable="anddoeslauncher"/>
        <item drawable="anddoeslauncherpro"/>
@@ -150,6 +152,7 @@
        <item drawable="apkeditor"/>
        <item drawable="apkoptic"/>
        <item drawable="apkshare"/>
+       <item drawable="apk_extractor"/>
        <item drawable="apollo"/>
        <item drawable="appareildentreesansfil"/>
        <item drawable="appcachecleaner"/>
@@ -227,6 +230,7 @@
        <item drawable="automateitpro"/>
        <item drawable="automatycz"/>
        <item drawable="autoresizewallpaper"/>
+       <item drawable="autoscout24"/>
        <item drawable="autosms"/>
        <item drawable="autostartmanager"/>
        <item drawable="autotradercom"/>
@@ -240,6 +244,7 @@
        <item drawable="aviate"/>
        <item drawable="aviciigravity"/>
        <item drawable="axis"/>
+       <item drawable="a_94"/>
        <item drawable="b1freearchiver"/>
        <item drawable="backdroid"/>
        <item drawable="backgammonfree"/>
@@ -321,6 +326,7 @@
        <item drawable="bettersleep"/>
        <item drawable="betterwifionoff"/>
        <item drawable="betteryoumail"/>
+       <item drawable="beyondpod"/>
        <item drawable="bfcom"/>
        <item drawable="bgoldgolauncherextheme"/>
        <item drawable="bharatmatrimony"/>
@@ -378,6 +384,7 @@
        <item drawable="box2"/>
        <item drawable="boxtheme"/>
        <item drawable="bradesco"/>
+       <item drawable="brain_dots"/>
        <item drawable="brapps"/>
        <item drawable="brasiltvs"/>
        <item drawable="bravefrontier"/>
@@ -507,6 +514,7 @@
        <item drawable="clashofclans"/>
        <item drawable="cleanmaster"/>
        <item drawable="cleantheme"/>
+       <item drawable="clean_master"/>
        <item drawable="cleared"/>
        <item drawable="clearpack"/>
        <item drawable="clickui"/>
@@ -571,6 +579,7 @@
        <item drawable="copy"/>
        <item drawable="copyyoursmiley"/>
        <item drawable="copyyoursmileyunlocker"/>
+       <item drawable="couple"/>
        <item drawable="courli"/>
        <item drawable="coursera"/>
        <item drawable="cover"/>
@@ -590,6 +599,7 @@
        <item drawable="cricbuzz"/>
        <item drawable="cricketunlimited"/>
        <item drawable="crossme"/>
+       <item drawable="crossy_road"/>
        <item drawable="cryten"/>
        <item drawable="csrracing"/>
        <item drawable="csun"/>
@@ -610,6 +620,7 @@
        <item drawable="cyrcle"/>
        <item drawable="dabicons"/>
        <item drawable="daddywasathief"/>
+       <item drawable="daddy_long_legs"/>
        <item drawable="dailyhoroscope"/>
        <item drawable="danmakudeath"/>
        <item drawable="danstonchat"/>
@@ -618,6 +629,7 @@
        <item drawable="darksynergy"/>
        <item drawable="dashclocksettings"/>
        <item drawable="dashcommand"/>
+       <item drawable="dashlane"/>
        <item drawable="dataenabler"/>
        <item drawable="dbnavigator"/>
        <item drawable="deadpixeltest"/>
@@ -625,6 +637,7 @@
        <item drawable="deadtrigger2"/>
        <item drawable="deadzone"/>
        <item drawable="deathrally"/>
+       <item drawable="deemo"/>
        <item drawable="deezer"/>
        <item drawable="defendrpro"/>
        <item drawable="defensoid"/>
@@ -725,6 +738,7 @@
        <item drawable="dsppack"/>
        <item drawable="dubatterysaver"/>
        <item drawable="duckduckgo"/>
+       <item drawable="duet"/>
        <item drawable="duetpremium"/>
        <item drawable="dumbwaystodie"/>
        <item drawable="dumpster"/>
@@ -772,6 +786,7 @@
        <item drawable="espnradio"/>
        <item drawable="estaskmanager"/>
        <item drawable="esurance"/>
+       <item drawable="etsy"/>
        <item drawable="euchre"/>
        <item drawable="eurosport"/>
        <item drawable="eventlogger"/>
@@ -780,10 +795,12 @@
        <item drawable="evernotewidget"/>
        <item drawable="everypost"/>
        <item drawable="everythingme"/>
+       <item drawable="evocreo"/>
        <item drawable="evolution"/>
        <item drawable="evolvesms"/>
        <item drawable="ewallet"/>
        <item drawable="eweatherhd"/>
+       <item drawable="excel"/>
        <item drawable="exchange"/>
        <item drawable="expander"/>
        <item drawable="expedia"/>
@@ -844,6 +861,7 @@
        <item drawable="firefoxbeta"/>
        <item drawable="firstbus"/>
        <item drawable="fishycanalescape"/>
+       <item drawable="fit"/>
        <item drawable="fitbit"/>
        <item drawable="fitnesswithgear"/>
        <item drawable="fitnotes"/>
@@ -858,6 +876,7 @@
        <item drawable="flashalerts"/>
        <item drawable="flashblink"/>
        <item drawable="flashfox"/>
+       <item drawable="flashfox_pro"/>
        <item drawable="flashify"/>
        <item drawable="flashimagegui"/>
        <item drawable="flashlight"/>
@@ -901,6 +920,7 @@
        <item drawable="fmradio2"/>
        <item drawable="fmradiohtc"/>
        <item drawable="fmradiom"/>
+       <item drawable="fnbil"/>
        <item drawable="foap"/>
        <item drawable="focal"/>
        <item drawable="folderdownloader"/>
@@ -914,11 +934,13 @@
        <item drawable="fongo"/>
        <item drawable="fontinstaller"/>
        <item drawable="fontster"/>
+       <item drawable="food__drink"/>
        <item drawable="forcetranslucentkitkat"/>
        <item drawable="forestsettings"/>
        <item drawable="forrentcom"/>
        <item drawable="fotbollskanalen"/>
        <item drawable="fotodanz"/>
+       <item drawable="fotos"/>
        <item drawable="foundation"/>
        <item drawable="fourshared"/>
        <item drawable="foursquare"/>
@@ -931,6 +953,7 @@
        <item drawable="fractioncalculator"/>
        <item drawable="fragment"/>
        <item drawable="framaroot"/>
+       <item drawable="framed"/>
        <item drawable="freebooks"/>
        <item drawable="freedom"/>
        <item drawable="freegeo"/>
@@ -938,6 +961,7 @@
        <item drawable="frenchdictionary"/>
        <item drawable="frep"/>
        <item drawable="frequency"/>
+       <item drawable="fresh"/>
        <item drawable="freshcoat"/>
        <item drawable="friendcaster"/>
        <item drawable="friendcasterpro"/>
@@ -973,6 +997,7 @@
        <item drawable="gamehub"/>
        <item drawable="gameloftgames"/>
        <item drawable="gangstar4"/>
+       <item drawable="gangstar_4"/>
        <item drawable="garbarino"/>
        <item drawable="gasbuddy"/>
        <item drawable="gasoilnow"/>
@@ -987,6 +1012,7 @@
        <item drawable="geniewidget"/>
        <item drawable="gensoid"/>
        <item drawable="geometrydashlite"/>
+       <item drawable="geometry_dash"/>
        <item drawable="gesetze"/>
        <item drawable="gestionnairedefichiers"/>
        <item drawable="gesturenavigation"/>
@@ -995,6 +1021,7 @@
        <item drawable="getresponse"/>
        <item drawable="gifplayer"/>
        <item drawable="github"/>
+       <item drawable="give_it_up"/>
        <item drawable="glasgowbusfinder"/>
        <item drawable="glass"/>
        <item drawable="glowhockey"/>
@@ -1063,6 +1090,7 @@
        <item drawable="greenify"/>
        <item drawable="grepolis"/>
        <item drawable="grocerygadget"/>
+       <item drawable="groove"/>
        <item drawable="groovein"/>
        <item drawable="grooveip"/>
        <item drawable="grooveshark"/>
@@ -1113,12 +1141,14 @@
        <item drawable="headset_controller"/>
        <item drawable="headsoccer"/>
        <item drawable="headsup"/>
+       <item drawable="health__fitness"/>
        <item drawable="hearingphantomfree"/>
        <item drawable="heartbleeddetector"/>
        <item drawable="heartbleedscanner"/>
        <item drawable="heartbleedscannerbblabs"/>
        <item drawable="heartratepro"/>
        <item drawable="hearts_free"/>
+       <item drawable="heart_rate"/>
        <item drawable="helium"/>
        <item drawable="hello"/>
        <item drawable="hellscorekernelmanager"/>
@@ -1151,6 +1181,7 @@
        <item drawable="hongkongmovie"/>
        <item drawable="hongkongmovie2"/>
        <item drawable="hook"/>
+       <item drawable="hook_2"/>
        <item drawable="hotmail"/>
        <item drawable="hotpads"/>
        <item drawable="hotspotshieldvpn"/>
@@ -1190,7 +1221,10 @@
        <item drawable="imdb"/>
        <item drawable="imgur"/>
        <item drawable="immersivemodedontpanic"/>
+       <item drawable="immobilien_scout_24"/>
        <item drawable="imobiletsquare"/>
+       <item drawable="impossible"/>
+       <item drawable="impossible_level_pack"/>
        <item drawable="impro"/>
        <item drawable="inbrowser"/>
        <item drawable="inbrowserbeta"/>
@@ -1225,6 +1259,7 @@
        <item drawable="iquran"/>
        <item drawable="iquranlite"/>
        <item drawable="ironpants"/>
+       <item drawable="iscream"/>
        <item drawable="ishredder"/>
        <item drawable="isyncr"/>
        <item drawable="itag"/>
@@ -1309,15 +1344,18 @@
        <item drawable="lagfixpremium"/>
        <item drawable="lapltogo"/>
        <item drawable="lapseit"/>
+       <item drawable="lara_croft_go"/>
        <item drawable="laserbreak"/>
        <item drawable="lastfish"/>
        <item drawable="lastpass"/>
        <item drawable="launcherpro"/>
        <item drawable="layers"/>
        <item drawable="layers_showcase"/>
+       <item drawable="layout"/>
        <item drawable="lazada"/>
        <item drawable="ldbrowser"/>
        <item drawable="leafly"/>
+       <item drawable="league_of_stickman"/>
        <item drawable="leconjugueur"/>
        <item drawable="lecteurgooglevideos"/>
        <item drawable="letras"/>
@@ -1325,6 +1363,7 @@
        <item drawable="lgeku"/>
        <item drawable="lgtvremote"/>
        <item drawable="lgtvremote2"/>
+       <item drawable="lieferandode"/>
        <item drawable="lieferheld"/>
        <item drawable="lightbulb"/>
        <item drawable="lightflow"/>
@@ -1359,6 +1398,7 @@
        <item drawable="lookout"/>
        <item drawable="loopr"/>
        <item drawable="los40"/>
+       <item drawable="lotto24de"/>
        <item drawable="louevents"/>
        <item drawable="louisvillemobile"/>
        <item drawable="loutraffic"/>
@@ -1375,6 +1415,7 @@
        <item drawable="luxdash"/>
        <item drawable="lyft"/>
        <item drawable="lync2013"/>
+       <item drawable="lync_2013"/>
        <item drawable="lyne"/>
        <item drawable="macys"/>
        <item drawable="madden25"/>
@@ -1401,6 +1442,8 @@
        <item drawable="maxgo"/>
        <item drawable="maxmatch"/>
        <item drawable="maxthonbrowser"/>
+       <item drawable="mcdonalds"/>
+       <item drawable="mcgill"/>
        <item drawable="mcr"/>
        <item drawable="mdemu"/>
        <item drawable="mdfivechecker"/>
@@ -1415,6 +1458,7 @@
        <item drawable="meetup"/>
        <item drawable="mega"/>
        <item drawable="megacurioso"/>
+       <item drawable="mehrtanken_premium"/>
        <item drawable="meijer"/>
        <item drawable="meipaimv"/>
        <item drawable="memedroid"/>
@@ -1425,6 +1469,7 @@
        <item drawable="memorybooster"/>
        <item drawable="mensajes"/>
        <item drawable="mercadolivre"/>
+       <item drawable="mercado_pago"/>
        <item drawable="meridiantagger"/>
        <item drawable="merriamwebsterdictionary"/>
        <item drawable="merriamwebsterdictionarypremium"/>
@@ -1438,6 +1483,10 @@
        <item drawable="metrobrussels"/>
        <item drawable="mgerrit"/>
        <item drawable="miamiherald"/>
+       <item drawable="microsoft_account"/>
+       <item drawable="microsoft_health"/>
+       <item drawable="microsoft_remote_desktop"/>
+       <item drawable="microsoft_remote_desktop_beta"/>
        <item drawable="mightytext"/>
        <item drawable="migracaomotorola"/>
        <item drawable="mikforumsfree"/>
@@ -1492,6 +1541,7 @@
        <item drawable="moleword"/>
        <item drawable="molome"/>
        <item drawable="monectportable"/>
+       <item drawable="money"/>
        <item drawable="moneypass"/>
        <item drawable="moneywise"/>
        <item drawable="mono"/>
@@ -1519,6 +1569,7 @@
        <item drawable="mp3musicdownload"/>
        <item drawable="mp3musicdownloader"/>
        <item drawable="mp3videoconverterspringwalk"/>
+       <item drawable="mp3_cutter"/>
        <item drawable="mpthreedownload"/>
        <item drawable="mpthreeskull"/>
        <item drawable="mrflap"/>
@@ -1586,6 +1637,8 @@
        <item drawable="myvodafone"/>
        <item drawable="myweight"/>
        <item drawable="myxboxlive"/>
+       <item drawable="my_account"/>
+       <item drawable="my_apps"/>
        <item drawable="n64oid"/>
        <item drawable="n7player"/>
        <item drawable="na"/>
@@ -1671,6 +1724,10 @@
        <item drawable="officemobile"/>
        <item drawable="officemobisystems"/>
        <item drawable="officesuite"/>
+       <item drawable="office_365_admin"/>
+       <item drawable="office_lens"/>
+       <item drawable="office_mobile"/>
+       <item drawable="office_remote"/>
        <item drawable="offihaltestellen"/>
        <item drawable="offinetzplane"/>
        <item drawable="offiverbindungen"/>
@@ -1716,6 +1773,7 @@
        <item drawable="outofmilk"/>
        <item drawable="overdrivemediaconsole"/>
        <item drawable="overlays"/>
+       <item drawable="owa"/>
        <item drawable="owl"/>
        <item drawable="oymwalls"/>
        <item drawable="pacman"/>
@@ -1767,6 +1825,8 @@
        <item drawable="performancecontrol"/>
        <item drawable="perguntados"/>
        <item drawable="periodictable"/>
+       <item drawable="periscope"/>
+       <item drawable="perka"/>
        <item drawable="personalize"/>
        <item drawable="personalnotes"/>
        <item drawable="petfirstaid"/>
@@ -1827,6 +1887,7 @@
        <item drawable="play_store_changelog"/>
        <item drawable="pleco"/>
        <item drawable="plex"/>
+       <item drawable="plug__play"/>
        <item drawable="plume"/>
        <item drawable="pncmobile"/>
        <item drawable="pockedideashower"/>
@@ -1842,6 +1903,7 @@
        <item drawable="polarisoffice"/>
        <item drawable="polarisoffice40"/>
        <item drawable="polarisoffice5"/>
+       <item drawable="polaris_office"/>
        <item drawable="polycons"/>
        <item drawable="pomelo"/>
        <item drawable="poolbreakpro"/>
@@ -1857,10 +1919,12 @@
        <item drawable="powerampclassicskin"/>
        <item drawable="powerampfull"/>
        <item drawable="powerampkkjbicsskin"/>
+       <item drawable="powerpoint"/>
        <item drawable="powersleep"/>
        <item drawable="powertoggles"/>
        <item drawable="powertogive"/>
        <item drawable="ppsspp"/>
+       <item drawable="ppsspp_gold"/>
        <item drawable="prankdial"/>
        <item drawable="precisionbalance"/>
        <item drawable="prey"/>
@@ -1877,6 +1941,7 @@
        <item drawable="psiphon"/>
        <item drawable="pstouch"/>
        <item drawable="puddingmonstershd"/>
+       <item drawable="puffin"/>
        <item drawable="puptox"/>
        <item drawable="puregridcalendarinfo"/>
        <item drawable="pushbullet"/>
@@ -1907,6 +1972,7 @@
        <item drawable="quizlet"/>
        <item drawable="quizup"/>
        <item drawable="quran"/>
+       <item drawable="race_the_traffic"/>
        <item drawable="radarexpress"/>
        <item drawable="radarscope"/>
        <item drawable="radiant"/>
@@ -1914,6 +1980,7 @@
        <item drawable="radiofm2"/>
        <item drawable="radiofm3"/>
        <item drawable="radiopup"/>
+       <item drawable="radio_fm"/>
        <item drawable="ragdolllaserdodgefree"/>
        <item drawable="ragnarok"/>
        <item drawable="raidcall"/>
@@ -1943,6 +2010,7 @@
        <item drawable="recordenselite"/>
        <item drawable="recordmycall"/>
        <item drawable="recoverytools"/>
+       <item drawable="recupera_contrasea_wifi"/>
        <item drawable="recycle"/>
        <item drawable="redbox"/>
        <item drawable="redbullracers"/>
@@ -1963,6 +2031,7 @@
        <item drawable="repellent"/>
        <item drawable="replicaisland"/>
        <item drawable="repligoreader"/>
+       <item drawable="reproductor_mx_pro"/>
        <item drawable="restartcamera"/>
        <item drawable="retailmenotcoupons"/>
        <item drawable="retroui"/>
@@ -2034,6 +2103,7 @@
        <item drawable="scorekeeper"/>
        <item drawable="scout"/>
        <item drawable="scoutlookdeerlog"/>
+       <item drawable="scout_2"/>
        <item drawable="scrapbook"/>
        <item drawable="screenfilter"/>
        <item drawable="screenfilterhaxor"/>
@@ -2066,6 +2136,7 @@
        <item drawable="seeder"/>
        <item drawable="select"/>
        <item drawable="selinuxmodechanger"/>
+       <item drawable="sell_on_etsy"/>
        <item drawable="sense6lockscreenmods"/>
        <item drawable="sense6toolbox"/>
        <item drawable="sense6toolbox2"/>
@@ -2127,6 +2198,7 @@
        <item drawable="skipheitzig"/>
        <item drawable="skiplock"/>
        <item drawable="skitch"/>
+       <item drawable="ski_safari"/>
        <item drawable="skout"/>
        <item drawable="sky"/>
        <item drawable="skyforce"/>
@@ -2134,10 +2206,13 @@
        <item drawable="skype"/>
        <item drawable="skywifi"/>
        <item drawable="slackerradio"/>
+       <item drawable="slacker_radio"/>
        <item drawable="slando"/>
        <item drawable="sleepasandroid"/>
+       <item drawable="sleepbot"/>
        <item drawable="sleepstats"/>
        <item drawable="slidelock"/>
+       <item drawable="slideme"/>
        <item drawable="sliderwidget"/>
        <item drawable="slingmedia"/>
        <item drawable="slingplayer"/>
@@ -2173,6 +2248,7 @@
        <item drawable="snapprefs"/>
        <item drawable="snapsave"/>
        <item drawable="snapseed"/>
+       <item drawable="snapseed_2"/>
        <item drawable="snapshare"/>
        <item drawable="sncbnmbs"/>
        <item drawable="snes9xex"/>
@@ -2188,12 +2264,15 @@
        <item drawable="solar2"/>
        <item drawable="solcalendar"/>
        <item drawable="solidexplorer"/>
+       <item drawable="solid_explorer"/>
        <item drawable="solitaire"/>
        <item drawable="solitairefreepack"/>
        <item drawable="solitairemobilityware"/>
        <item drawable="solitairerunserver"/>
        <item drawable="sololauncher"/>
        <item drawable="soluto"/>
+       <item drawable="songsterr"/>
+       <item drawable="songtree"/>
        <item drawable="songza"/>
        <item drawable="soniccd"/>
        <item drawable="sonicdash"/>
@@ -2258,6 +2337,7 @@
        <item drawable="stickersforhangouts"/>
        <item drawable="stickman"/>
        <item drawable="stickmount"/>
+       <item drawable="stick_hero"/>
        <item drawable="stocks"/>
        <item drawable="stockui"/>
        <item drawable="stopwatch"/>
@@ -2267,6 +2347,7 @@
        <item drawable="strata"/>
        <item drawable="strava"/>
        <item drawable="streambels"/>
+       <item drawable="street_view"/>
        <item drawable="striketeam"/>
        <item drawable="struktur"/>
        <item drawable="stubhub"/>
@@ -2284,6 +2365,7 @@
        <item drawable="sunbeam"/>
        <item drawable="sunrise"/>
        <item drawable="suntrust"/>
+       <item drawable="superbeam"/>
        <item drawable="supergnes"/>
        <item drawable="superhexagon"/>
        <item drawable="supermanager"/>
@@ -2328,6 +2410,7 @@
        <item drawable="tagon"/>
        <item drawable="talkatone"/>
        <item drawable="talon"/>
+       <item drawable="tango"/>
        <item drawable="tankbattles"/>
        <item drawable="tankenapp"/>
        <item drawable="tankherolaser"/>
@@ -2350,6 +2433,7 @@
        <item drawable="td"/>
        <item drawable="tdbankus"/>
        <item drawable="tdoshowbox"/>
+       <item drawable="td_canada"/>
        <item drawable="teamviewer"/>
        <item drawable="tebakgambar"/>
        <item drawable="technofreesamplepackforaudioevolutionmobile"/>
@@ -2442,6 +2526,7 @@
        <item drawable="tornado"/>
        <item drawable="torque"/>
        <item drawable="torrentsearchsettings"/>
+       <item drawable="torrent_search_by_transdroid_ttorrent_fork"/>
        <item drawable="totalmeltdown"/>
        <item drawable="total_commander"/>
        <item drawable="touchcalendar"/>
@@ -2458,6 +2543,7 @@
        <item drawable="transitapp"/>
        <item drawable="transitdb"/>
        <item drawable="transittimes"/>
+       <item drawable="translator"/>
        <item drawable="transparentscreen"/>
        <item drawable="transparentscreen2"/>
        <item drawable="transparentweatherclock"/>
@@ -2480,6 +2566,7 @@
        <item drawable="tsb"/>
        <item drawable="ttorrent"/>
        <item drawable="ttorrentpro"/>
+       <item drawable="ttorrent_pro"/>
        <item drawable="tubemate"/>
        <item drawable="tudogostoso"/>
        <item drawable="tumblr"/>
@@ -2512,6 +2599,7 @@
        <item drawable="twrp"/>
        <item drawable="twrpmanager"/>
        <item drawable="twrpthememanager"/>
+       <item drawable="twrp_manager"/>
        <item drawable="typemachine"/>
        <item drawable="uacinemas"/>
        <item drawable="uber"/>
@@ -2531,6 +2619,7 @@
        <item drawable="unicon"/>
        <item drawable="unifiedremote"/>
        <item drawable="unifiedremotefull"/>
+       <item drawable="unified_remote_full"/>
        <item drawable="uninstallerpro"/>
        <item drawable="universalinitd"/>
        <item drawable="universepandemic"/>
@@ -2561,6 +2650,7 @@
        <item drawable="vascosportv"/>
        <item drawable="vdmofficiel"/>
        <item drawable="vector"/>
+       <item drawable="vector_full"/>
        <item drawable="vellamo"/>
        <item drawable="velur"/>
        <item drawable="venicemystery"/>
@@ -2618,6 +2708,7 @@
        <item drawable="voicesearch"/>
        <item drawable="voicetoggles"/>
        <item drawable="volume_boost_for_nexus_5"/>
+       <item drawable="vopor"/>
        <item drawable="vouchercloud"/>
        <item drawable="voxel"/>
        <item drawable="voxelrush"/>
@@ -2655,6 +2746,7 @@
        <item drawable="wavecontrolpro"/>
        <item drawable="wavepad"/>
        <item drawable="waveradar"/>
+       <item drawable="waves"/>
        <item drawable="waze"/>
        <item drawable="wboy"/>
        <item drawable="wds1"/>
@@ -2710,6 +2802,7 @@
        <item drawable="wififileexplorerpro"/>
        <item drawable="wififiletransferpro"/>
        <item drawable="wififinder"/>
+       <item drawable="wifikeepalive"/>
        <item drawable="wifikeyview"/>
        <item drawable="wifikill"/>
        <item drawable="wifinspect"/>
@@ -2731,6 +2824,8 @@
        <item drawable="wondershareplayer"/>
        <item drawable="wonderzoo"/>
        <item drawable="wongacom"/>
+       <item drawable="word"/>
+       <item drawable="wordbrain"/>
        <item drawable="wordbreakerfull"/>
        <item drawable="wordfeudfree"/>
        <item drawable="wordlens"/>
@@ -2740,6 +2835,7 @@
        <item drawable="worldclockweatherwidget"/>
        <item drawable="worldofgoo"/>
        <item drawable="worldstarhiphop"/>
+       <item drawable="wo_mic"/>
        <item drawable="wpclock"/>
        <item drawable="wpclock2"/>
        <item drawable="wradiomexico"/>
@@ -2754,6 +2850,9 @@
        <item drawable="xboxmusic"/>
        <item drawable="xboxonesmartglass"/>
        <item drawable="xboxonesmartglassbeta"/>
+       <item drawable="xbox_360_smartglass"/>
+       <item drawable="xbox_one_smartglass"/>
+       <item drawable="xbox_one_smartglass_beta"/>
        <item drawable="xda"/>
        <item drawable="xdacredibility"/>
        <item drawable="xdacredibilitypro"/>
@@ -2788,6 +2887,7 @@
        <item drawable="yahoo"/>
        <item drawable="yahoomail"/>
        <item drawable="yahoomessenger"/>
+       <item drawable="yahoo_mail"/>
        <item drawable="yandexshell"/>
        <item drawable="yatse"/>
        <item drawable="yelp"/>

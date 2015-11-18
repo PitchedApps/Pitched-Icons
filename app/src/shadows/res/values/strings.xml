@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">Pitched Shadows</string>
+    <string name="app_long_name">Pitched Shadows by Pitched Apps</string>
+    <string name="package_name">com.pitchedapps.icons.shadows</string>
+	<string name="theme_description">Pitched Shadows was one of the first apps I\'ve made, and contains over 2000 hand crafted icons, aimed at delivery a dark look, while allowing your wallpaper to show through.</string>
+	<string name="welcome_title">The perfect icons to accentuate your wallpaper</string>
+
+		
+	<!-- Mail subjects for simple e-mail and requests e-mail -->
+    <string name="email_subject">Pitched Shadows Support</string>
+    <string name="email_request_subject">Pitched Shadows - Premium Icon Request</string>
+    <string name="request_save_location">"/Pitched_Shadows/Requests"</string>
+	
+	<!-- Strings for Wallpapers -->
+    <string name="walls_save_location">"/Pitched_Shadows/Wallpapers/"</string>
+    <string name="walls_prefix_name">Pitched_Shadows_</string>
+
+    <string name="GOOGLE_PUBKEY">"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlzTFABX4P88Vv6ZDhO/yGt9cny+oGDw/wkoPXTOpt3aNOyDOb1DxrGQVSQdegvJe2AKuZR9Ps/CaUuCZilIbVrWRaFmVvehM0ou1kg/Lu93HNT5Xsl9LxBIMPz8L4z2tZCSKyBEIA+8VwIQMDYiV5WdBLrDvWULQrnaSymx5ub47rp7YtkFVvE+j03HRtfOZNbsHao+vKhyYKbrbkbWiVqioyfXYlZ0kpAcv1CWbe3ogki57o3bytOjWdN1HGT4RgeXrqXO1Wai8Hsi8mYJXKTht0oPBqsL+AehKeWqRJuMalSDYCL/lU6s+JsGsY5nca+XcjI7y6NVyf9Or+TjA2QIDAQAB"</string>
+</resources>

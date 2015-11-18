@@ -10,20 +10,20 @@ tasks.whenTaskAdded { task ->
 
 repositories {
     jcenter()
-    maven { url 'https://dl.bintray.com/drummer-aidan/maven' }
+    maven { url "https://jitpack.io" }
     maven { url 'https://dl.bintray.com/asdfasdfvful/maven' }
 }
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "com.pitchedapps.icons"
         minSdkVersion 15
-        targetSdkVersion 22
-        versionCode 620
-        versionName "6.2.0"
+        targetSdkVersion 23
+        versionCode 10631
+        versionName "6.3.0"
     }
 	
 	applicationVariants.all { variant ->
@@ -45,29 +45,37 @@ android {
         glass {
             applicationId "com.pitchedapps.icons.glass"
         }
+        shadows {
+            applicationId "com.pitchedapps.icons.shadows"
+        }
     }
 	
 	lintOptions {
         abortOnError false
     }
+
+    useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'org.sufficientlysecure:donations:2.3'
     compile 'com.pitchedapps:icon-request-tool:2.0@aar'
-    compile 'com.android.support:appcompat-v7:22.2.1'
-    compile 'com.android.support:support-v4:22.2.1@aar'
-    compile 'com.android.support:cardview-v7:22.2.1@aar'
-    compile 'com.android.support:palette-v7:22.2.1@aar'
-    compile 'com.android.support:recyclerview-v7:22.2.1@aar'
-    compile 'com.afollestad:material-dialogs:0.7.7.0'
-    compile('com.mikepenz:materialdrawer:3.1.2@aar') {
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:support-v4:23.1.1@aar'
+    compile 'com.android.support:cardview-v7:23.1.1@aar'
+    compile 'com.android.support:palette-v7:23.1.1@aar'
+    compile 'com.android.support:recyclerview-v7:23.1.1@aar'
+    compile('com.github.afollestad.material-dialogs:core:0.8.5.1@aar') {
         transitive = true
     }
+    compile('com.mikepenz:materialdrawer:4.3.7@aar') {
+        transitive = true
+    }
+    compile 'com.mikepenz:google-material-typeface:1.2.0.1@aar'
     compile 'com.melnykov:floatingactionbutton:1.3.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.squareup.okhttp:okhttp:2.3.0'
-    compile 'com.squareup.okhttp:okhttp-urlconnection:2.3.0'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.4.0'
     compile 'com.google.android.apps.muzei:muzei-api:2.0'
 }

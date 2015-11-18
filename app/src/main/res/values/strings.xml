@@ -93,10 +93,7 @@
 
     <!-- Tabs Names list -->
     <string-array name="tabs">
-        <item>SYSTEM</item>
-        <item>GOOGLE APPS</item>
-        <item>USER</item>
-        <item>XPOSED</item>
+        <item>NEW</item>
         <item>ALL</item>
     </string-array>
 
@@ -123,6 +120,7 @@
     <string name="theme_ad_msg">@string/theme_description</string>
     <string name="title_activity_home">HomeActivity</string>
 
+    <string name="GOOGLE_PUBKEY">insert pubkey here</string>
 
     <string-array name="donation_google_catalog_values">
         <item>$1</item>

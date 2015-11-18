@@ -1,28 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string-array name="latesticons">
-        <item>agario</item>
-        <item>batterydrain</item>
-        <item>cops_and_robbers</item>
-        <item>flynx</item>
-        <item>google_messenger</item>
-        <item>headset_controller</item>
-        <item>layers_showcase</item>
-        <item>material_glass</item>
-        <item>matlog</item>
-        <item>music_cm</item>
-        <item>pedometer</item>
-        <item>play_store_changelog</item>
-        <item>psiphon</item>
-        <item>snapprefs</item>
-        <item>sudoku_free</item>
-        <item>supersu</item>
-        <item>themes_cm</item>
-        <item>total_commander</item>
-        <item>volume_boost_for_nexus_5</item>
-        <item>wifikeyview</item>
-        <item>xinstaller</item>
-        <item>zaycevnet</item>
+        <item>aicp_ota</item>
+        <item>amazon_compras</item>
+        <item>apk_extractor</item>
+        <item>autoscout24</item>
+        <item>a_94</item>
+        <item>beyondpod</item>
+        <item>brain_dots</item>
+        <item>couple</item>
+        <item>crossy_road</item>
+        <item>daddy_long_legs</item>
+        <item>dashlane</item>
+        <item>deemo</item>
+        <item>duet</item>
+        <item>etsy</item>
+        <item>evocreo</item>
+        <item>fit</item>
+        <item>flashfox_pro</item>
+        <item>fnbil</item>
+        <item>fotos</item>
+        <item>framed</item>
+        <item>fresh</item>
+        <item>gangstar_4</item>
+        <item>geometry_dash</item>
+        <item>give_it_up</item>
+        <item>heart_rate</item>
+        <item>hook_2</item>
+        <item>immobilien_scout_24</item>
+        <item>impossible</item>
+        <item>impossible_level_pack</item>
+        <item>iscream</item>
+        <item>lara_croft_go</item>
+        <item>layout</item>
+        <item>league_of_stickman</item>
+        <item>lieferandode</item>
+        <item>lotto24de</item>
+        <item>mcdonalds</item>
+        <item>mcgill</item>
+        <item>mega</item>
+        <item>mehrtanken_premium</item>
+        <item>mercado_pago</item>
+        <item>mp3_cutter</item>
+        <item>my_account</item>
+        <item>periscope</item>
+        <item>perka</item>
+        <item>plug__play</item>
+        <item>ppsspp_gold</item>
+        <item>puffin</item>
+        <item>race_the_traffic</item>
+        <item>radio_fm</item>
+        <item>recupera_contrasea_wifi</item>
+        <item>reproductor_mx_pro</item>
+        <item>scout_2</item>
+        <item>sell_on_etsy</item>
+        <item>ski_safari</item>
+        <item>slacker_radio</item>
+        <item>sleepbot</item>
+        <item>slideme</item>
+        <item>snapseed_2</item>
+        <item>solid_explorer</item>
+        <item>songsterr</item>
+        <item>songtree</item>
+        <item>stick_hero</item>
+        <item>street_view</item>
+        <item>superbeam</item>
+        <item>tango</item>
+        <item>torrent_search_by_transdroid_ttorrent_fork</item>
+        <item>ttorrent_pro</item>
+        <item>twrp_manager</item>
+        <item>unified_remote_full</item>
+        <item>vector_full</item>
+        <item>vopor</item>
+        <item>waves</item>
+        <item>wifikeepalive</item>
+        <item>wordbrain</item>
+        <item>wo_mic</item>
     </string-array>
    <string-array name="icon_pack" translatable="true">
        <item>a100balls</item>
@@ -90,6 +143,7 @@
        <item>afwalldonate</item>
        <item>agario</item>
        <item>agent</item>
+       <item>aicp_ota</item>
        <item>aide</item>
        <item>aikforum</item>
        <item>aikhockey</item>
@@ -128,6 +182,7 @@
        <item>amazonkindle</item>
        <item>amazonlocal</item>
        <item>amazonmp3</item>
+       <item>amazon_compras</item>
        <item>amex</item>
        <item>anddoeslauncher</item>
        <item>anddoeslauncherpro</item>
@@ -172,6 +227,7 @@
        <item>apkeditor</item>
        <item>apkoptic</item>
        <item>apkshare</item>
+       <item>apk_extractor</item>
        <item>apollo</item>
        <item>appareildentreesansfil</item>
        <item>appcachecleaner</item>
@@ -249,6 +305,7 @@
        <item>automateitpro</item>
        <item>automatycz</item>
        <item>autoresizewallpaper</item>
+       <item>autoscout24</item>
        <item>autosms</item>
        <item>autostartmanager</item>
        <item>autotradercom</item>
@@ -262,6 +319,7 @@
        <item>aviate</item>
        <item>aviciigravity</item>
        <item>axis</item>
+       <item>a_94</item>
        <item>b1freearchiver</item>
        <item>backdroid</item>
        <item>backgammonfree</item>
@@ -343,6 +401,7 @@
        <item>bettersleep</item>
        <item>betterwifionoff</item>
        <item>betteryoumail</item>
+       <item>beyondpod</item>
        <item>bfcom</item>
        <item>bgoldgolauncherextheme</item>
        <item>bharatmatrimony</item>
@@ -400,6 +459,7 @@
        <item>box2</item>
        <item>boxtheme</item>
        <item>bradesco</item>
+       <item>brain_dots</item>
        <item>brapps</item>
        <item>brasiltvs</item>
        <item>bravefrontier</item>
@@ -529,6 +589,7 @@
        <item>clashofclans</item>
        <item>cleanmaster</item>
        <item>cleantheme</item>
+       <item>clean_master</item>
        <item>cleared</item>
        <item>clearpack</item>
        <item>clickui</item>
@@ -593,6 +654,7 @@
        <item>copy</item>
        <item>copyyoursmiley</item>
        <item>copyyoursmileyunlocker</item>
+       <item>couple</item>
        <item>courli</item>
        <item>coursera</item>
        <item>cover</item>
@@ -612,6 +674,7 @@
        <item>cricbuzz</item>
        <item>cricketunlimited</item>
        <item>crossme</item>
+       <item>crossy_road</item>
        <item>cryten</item>
        <item>csrracing</item>
        <item>csun</item>
@@ -632,6 +695,7 @@
        <item>cyrcle</item>
        <item>dabicons</item>
        <item>daddywasathief</item>
+       <item>daddy_long_legs</item>
        <item>dailyhoroscope</item>
        <item>danmakudeath</item>
        <item>danstonchat</item>
@@ -640,6 +704,7 @@
        <item>darksynergy</item>
        <item>dashclocksettings</item>
        <item>dashcommand</item>
+       <item>dashlane</item>
        <item>dataenabler</item>
        <item>dbnavigator</item>
        <item>deadpixeltest</item>
@@ -647,6 +712,7 @@
        <item>deadtrigger2</item>
        <item>deadzone</item>
        <item>deathrally</item>
+       <item>deemo</item>
        <item>deezer</item>
        <item>defendrpro</item>
        <item>defensoid</item>
@@ -747,6 +813,7 @@
        <item>dsppack</item>
        <item>dubatterysaver</item>
        <item>duckduckgo</item>
+       <item>duet</item>
        <item>duetpremium</item>
        <item>dumbwaystodie</item>
        <item>dumpster</item>
@@ -794,6 +861,7 @@
        <item>espnradio</item>
        <item>estaskmanager</item>
        <item>esurance</item>
+       <item>etsy</item>
        <item>euchre</item>
        <item>eurosport</item>
        <item>eventlogger</item>
@@ -802,10 +870,12 @@
        <item>evernotewidget</item>
        <item>everypost</item>
        <item>everythingme</item>
+       <item>evocreo</item>
        <item>evolution</item>
        <item>evolvesms</item>
        <item>ewallet</item>
        <item>eweatherhd</item>
+       <item>excel</item>
        <item>exchange</item>
        <item>expander</item>
        <item>expedia</item>
@@ -866,6 +936,7 @@
        <item>firefoxbeta</item>
        <item>firstbus</item>
        <item>fishycanalescape</item>
+       <item>fit</item>
        <item>fitbit</item>
        <item>fitnesswithgear</item>
        <item>fitnotes</item>
@@ -880,6 +951,7 @@
        <item>flashalerts</item>
        <item>flashblink</item>
        <item>flashfox</item>
+       <item>flashfox_pro</item>
        <item>flashify</item>
        <item>flashimagegui</item>
        <item>flashlight</item>
@@ -923,6 +995,7 @@
        <item>fmradio2</item>
        <item>fmradiohtc</item>
        <item>fmradiom</item>
+       <item>fnbil</item>
        <item>foap</item>
        <item>focal</item>
        <item>folderdownloader</item>
@@ -936,11 +1009,13 @@
        <item>fongo</item>
        <item>fontinstaller</item>
        <item>fontster</item>
+       <item>food__drink</item>
        <item>forcetranslucentkitkat</item>
        <item>forestsettings</item>
        <item>forrentcom</item>
        <item>fotbollskanalen</item>
        <item>fotodanz</item>
+       <item>fotos</item>
        <item>foundation</item>
        <item>fourshared</item>
        <item>foursquare</item>
@@ -953,6 +1028,7 @@
        <item>fractioncalculator</item>
        <item>fragment</item>
        <item>framaroot</item>
+       <item>framed</item>
        <item>freebooks</item>
        <item>freedom</item>
        <item>freegeo</item>
@@ -960,6 +1036,7 @@
        <item>frenchdictionary</item>
        <item>frep</item>
        <item>frequency</item>
+       <item>fresh</item>
        <item>freshcoat</item>
        <item>friendcaster</item>
        <item>friendcasterpro</item>
@@ -995,6 +1072,7 @@
        <item>gamehub</item>
        <item>gameloftgames</item>
        <item>gangstar4</item>
+       <item>gangstar_4</item>
        <item>garbarino</item>
        <item>gasbuddy</item>
        <item>gasoilnow</item>
@@ -1009,6 +1087,7 @@
        <item>geniewidget</item>
        <item>gensoid</item>
        <item>geometrydashlite</item>
+       <item>geometry_dash</item>
        <item>gesetze</item>
        <item>gestionnairedefichiers</item>
        <item>gesturenavigation</item>
@@ -1017,6 +1096,7 @@
        <item>getresponse</item>
        <item>gifplayer</item>
        <item>github</item>
+       <item>give_it_up</item>
        <item>glasgowbusfinder</item>
        <item>glass</item>
        <item>glowhockey</item>
@@ -1085,6 +1165,7 @@
        <item>greenify</item>
        <item>grepolis</item>
        <item>grocerygadget</item>
+       <item>groove</item>
        <item>groovein</item>
        <item>grooveip</item>
        <item>grooveshark</item>
@@ -1135,12 +1216,14 @@
        <item>headset_controller</item>
        <item>headsoccer</item>
        <item>headsup</item>
+       <item>health__fitness</item>
        <item>hearingphantomfree</item>
        <item>heartbleeddetector</item>
        <item>heartbleedscanner</item>
        <item>heartbleedscannerbblabs</item>
        <item>heartratepro</item>
        <item>hearts_free</item>
+       <item>heart_rate</item>
        <item>helium</item>
        <item>hello</item>
        <item>hellscorekernelmanager</item>
@@ -1173,6 +1256,7 @@
        <item>hongkongmovie</item>
        <item>hongkongmovie2</item>
        <item>hook</item>
+       <item>hook_2</item>
        <item>hotmail</item>
        <item>hotpads</item>
        <item>hotspotshieldvpn</item>
@@ -1212,7 +1296,10 @@
        <item>imdb</item>
        <item>imgur</item>
        <item>immersivemodedontpanic</item>
+       <item>immobilien_scout_24</item>
        <item>imobiletsquare</item>
+       <item>impossible</item>
+       <item>impossible_level_pack</item>
        <item>impro</item>
        <item>inbrowser</item>
        <item>inbrowserbeta</item>
@@ -1247,6 +1334,7 @@
        <item>iquran</item>
        <item>iquranlite</item>
        <item>ironpants</item>
+       <item>iscream</item>
        <item>ishredder</item>
        <item>isyncr</item>
        <item>itag</item>
@@ -1331,15 +1419,18 @@
        <item>lagfixpremium</item>
        <item>lapltogo</item>
        <item>lapseit</item>
+       <item>lara_croft_go</item>
        <item>laserbreak</item>
        <item>lastfish</item>
        <item>lastpass</item>
        <item>launcherpro</item>
        <item>layers</item>
        <item>layers_showcase</item>
+       <item>layout</item>
        <item>lazada</item>
        <item>ldbrowser</item>
        <item>leafly</item>
+       <item>league_of_stickman</item>
        <item>leconjugueur</item>
        <item>lecteurgooglevideos</item>
        <item>letras</item>
@@ -1347,6 +1438,7 @@
        <item>lgeku</item>
        <item>lgtvremote</item>
        <item>lgtvremote2</item>
+       <item>lieferandode</item>
        <item>lieferheld</item>
        <item>lightbulb</item>
        <item>lightflow</item>
@@ -1381,6 +1473,7 @@
        <item>lookout</item>
        <item>loopr</item>
        <item>los40</item>
+       <item>lotto24de</item>
        <item>louevents</item>
        <item>louisvillemobile</item>
        <item>loutraffic</item>
@@ -1397,6 +1490,7 @@
        <item>luxdash</item>
        <item>lyft</item>
        <item>lync2013</item>
+       <item>lync_2013</item>
        <item>lyne</item>
        <item>macys</item>
        <item>madden25</item>
@@ -1423,6 +1517,8 @@
        <item>maxgo</item>
        <item>maxmatch</item>
        <item>maxthonbrowser</item>
+       <item>mcdonalds</item>
+       <item>mcgill</item>
        <item>mcr</item>
        <item>mdemu</item>
        <item>mdfivechecker</item>
@@ -1437,6 +1533,7 @@
        <item>meetup</item>
        <item>mega</item>
        <item>megacurioso</item>
+       <item>mehrtanken_premium</item>
        <item>meijer</item>
        <item>meipaimv</item>
        <item>memedroid</item>
@@ -1447,6 +1544,7 @@
        <item>memorybooster</item>
        <item>mensajes</item>
        <item>mercadolivre</item>
+       <item>mercado_pago</item>
        <item>meridiantagger</item>
        <item>merriamwebsterdictionary</item>
        <item>merriamwebsterdictionarypremium</item>
@@ -1460,6 +1558,10 @@
        <item>metrobrussels</item>
        <item>mgerrit</item>
        <item>miamiherald</item>
+       <item>microsoft_account</item>
+       <item>microsoft_health</item>
+       <item>microsoft_remote_desktop</item>
+       <item>microsoft_remote_desktop_beta</item>
        <item>mightytext</item>
        <item>migracaomotorola</item>
        <item>mikforumsfree</item>
@@ -1514,6 +1616,7 @@
        <item>moleword</item>
        <item>molome</item>
        <item>monectportable</item>
+       <item>money</item>
        <item>moneypass</item>
        <item>moneywise</item>
        <item>mono</item>
@@ -1541,6 +1644,7 @@
        <item>mp3musicdownload</item>
        <item>mp3musicdownloader</item>
        <item>mp3videoconverterspringwalk</item>
+       <item>mp3_cutter</item>
        <item>mpthreedownload</item>
        <item>mpthreeskull</item>
        <item>mrflap</item>
@@ -1608,6 +1712,8 @@
        <item>myvodafone</item>
        <item>myweight</item>
        <item>myxboxlive</item>
+       <item>my_account</item>
+       <item>my_apps</item>
        <item>n64oid</item>
        <item>n7player</item>
        <item>na</item>
@@ -1693,6 +1799,10 @@
        <item>officemobile</item>
        <item>officemobisystems</item>
        <item>officesuite</item>
+       <item>office_365_admin</item>
+       <item>office_lens</item>
+       <item>office_mobile</item>
+       <item>office_remote</item>
        <item>offihaltestellen</item>
        <item>offinetzplane</item>
        <item>offiverbindungen</item>
@@ -1738,6 +1848,7 @@
        <item>outofmilk</item>
        <item>overdrivemediaconsole</item>
        <item>overlays</item>
+       <item>owa</item>
        <item>owl</item>
        <item>oymwalls</item>
        <item>pacman</item>
@@ -1789,6 +1900,8 @@
        <item>performancecontrol</item>
        <item>perguntados</item>
        <item>periodictable</item>
+       <item>periscope</item>
+       <item>perka</item>
        <item>personalize</item>
        <item>personalnotes</item>
        <item>petfirstaid</item>
@@ -1849,6 +1962,7 @@
        <item>play_store_changelog</item>
        <item>pleco</item>
        <item>plex</item>
+       <item>plug__play</item>
        <item>plume</item>
        <item>pncmobile</item>
        <item>pockedideashower</item>
@@ -1864,6 +1978,7 @@
        <item>polarisoffice</item>
        <item>polarisoffice40</item>
        <item>polarisoffice5</item>
+       <item>polaris_office</item>
        <item>polycons</item>
        <item>pomelo</item>
        <item>poolbreakpro</item>
@@ -1879,10 +1994,12 @@
        <item>powerampclassicskin</item>
        <item>powerampfull</item>
        <item>powerampkkjbicsskin</item>
+       <item>powerpoint</item>
        <item>powersleep</item>
        <item>powertoggles</item>
        <item>powertogive</item>
        <item>ppsspp</item>
+       <item>ppsspp_gold</item>
        <item>prankdial</item>
        <item>precisionbalance</item>
        <item>prey</item>
@@ -1899,6 +2016,7 @@
        <item>psiphon</item>
        <item>pstouch</item>
        <item>puddingmonstershd</item>
+       <item>puffin</item>
        <item>puptox</item>
        <item>puregridcalendarinfo</item>
        <item>pushbullet</item>
@@ -1929,6 +2047,7 @@
        <item>quizlet</item>
        <item>quizup</item>
        <item>quran</item>
+       <item>race_the_traffic</item>
        <item>radarexpress</item>
        <item>radarscope</item>
        <item>radiant</item>
@@ -1936,6 +2055,7 @@
        <item>radiofm2</item>
        <item>radiofm3</item>
        <item>radiopup</item>
+       <item>radio_fm</item>
        <item>ragdolllaserdodgefree</item>
        <item>ragnarok</item>
        <item>raidcall</item>
@@ -1965,6 +2085,7 @@
        <item>recordenselite</item>
        <item>recordmycall</item>
        <item>recoverytools</item>
+       <item>recupera_contrasea_wifi</item>
        <item>recycle</item>
        <item>redbox</item>
        <item>redbullracers</item>
@@ -1985,6 +2106,7 @@
        <item>repellent</item>
        <item>replicaisland</item>
        <item>repligoreader</item>
+       <item>reproductor_mx_pro</item>
        <item>restartcamera</item>
        <item>retailmenotcoupons</item>
        <item>retroui</item>
@@ -2056,6 +2178,7 @@
        <item>scorekeeper</item>
        <item>scout</item>
        <item>scoutlookdeerlog</item>
+       <item>scout_2</item>
        <item>scrapbook</item>
        <item>screenfilter</item>
        <item>screenfilterhaxor</item>
@@ -2088,6 +2211,7 @@
        <item>seeder</item>
        <item>select</item>
        <item>selinuxmodechanger</item>
+       <item>sell_on_etsy</item>
        <item>sense6lockscreenmods</item>
        <item>sense6toolbox</item>
        <item>sense6toolbox2</item>
@@ -2149,6 +2273,7 @@
        <item>skipheitzig</item>
        <item>skiplock</item>
        <item>skitch</item>
+       <item>ski_safari</item>
        <item>skout</item>
        <item>sky</item>
        <item>skyforce</item>
@@ -2156,10 +2281,13 @@
        <item>skype</item>
        <item>skywifi</item>
        <item>slackerradio</item>
+       <item>slacker_radio</item>
        <item>slando</item>
        <item>sleepasandroid</item>
+       <item>sleepbot</item>
        <item>sleepstats</item>
        <item>slidelock</item>
+       <item>slideme</item>
        <item>sliderwidget</item>
        <item>slingmedia</item>
        <item>slingplayer</item>
@@ -2195,6 +2323,7 @@
        <item>snapprefs</item>
        <item>snapsave</item>
        <item>snapseed</item>
+       <item>snapseed_2</item>
        <item>snapshare</item>
        <item>sncbnmbs</item>
        <item>snes9xex</item>
@@ -2210,12 +2339,15 @@
        <item>solar2</item>
        <item>solcalendar</item>
        <item>solidexplorer</item>
+       <item>solid_explorer</item>
        <item>solitaire</item>
        <item>solitairefreepack</item>
        <item>solitairemobilityware</item>
        <item>solitairerunserver</item>
        <item>sololauncher</item>
        <item>soluto</item>
+       <item>songsterr</item>
+       <item>songtree</item>
        <item>songza</item>
        <item>soniccd</item>
        <item>sonicdash</item>
@@ -2280,6 +2412,7 @@
        <item>stickersforhangouts</item>
        <item>stickman</item>
        <item>stickmount</item>
+       <item>stick_hero</item>
        <item>stocks</item>
        <item>stockui</item>
        <item>stopwatch</item>
@@ -2289,6 +2422,7 @@
        <item>strata</item>
        <item>strava</item>
        <item>streambels</item>
+       <item>street_view</item>
        <item>striketeam</item>
        <item>struktur</item>
        <item>stubhub</item>
@@ -2306,6 +2440,7 @@
        <item>sunbeam</item>
        <item>sunrise</item>
        <item>suntrust</item>
+       <item>superbeam</item>
        <item>supergnes</item>
        <item>superhexagon</item>
        <item>supermanager</item>
@@ -2350,6 +2485,7 @@
        <item>tagon</item>
        <item>talkatone</item>
        <item>talon</item>
+       <item>tango</item>
        <item>tankbattles</item>
        <item>tankenapp</item>
        <item>tankherolaser</item>
@@ -2372,6 +2508,7 @@
        <item>td</item>
        <item>tdbankus</item>
        <item>tdoshowbox</item>
+       <item>td_canada</item>
        <item>teamviewer</item>
        <item>tebakgambar</item>
        <item>technofreesamplepackforaudioevolutionmobile</item>
@@ -2464,6 +2601,7 @@
        <item>tornado</item>
        <item>torque</item>
        <item>torrentsearchsettings</item>
+       <item>torrent_search_by_transdroid_ttorrent_fork</item>
        <item>totalmeltdown</item>
        <item>total_commander</item>
        <item>touchcalendar</item>
@@ -2480,6 +2618,7 @@
        <item>transitapp</item>
        <item>transitdb</item>
        <item>transittimes</item>
+       <item>translator</item>
        <item>transparentscreen</item>
        <item>transparentscreen2</item>
        <item>transparentweatherclock</item>
@@ -2502,6 +2641,7 @@
        <item>tsb</item>
        <item>ttorrent</item>
        <item>ttorrentpro</item>
+       <item>ttorrent_pro</item>
        <item>tubemate</item>
        <item>tudogostoso</item>
        <item>tumblr</item>
@@ -2534,6 +2674,7 @@
        <item>twrp</item>
        <item>twrpmanager</item>
        <item>twrpthememanager</item>
+       <item>twrp_manager</item>
        <item>typemachine</item>
        <item>uacinemas</item>
        <item>uber</item>
@@ -2553,6 +2694,7 @@
        <item>unicon</item>
        <item>unifiedremote</item>
        <item>unifiedremotefull</item>
+       <item>unified_remote_full</item>
        <item>uninstallerpro</item>
        <item>universalinitd</item>
        <item>universepandemic</item>
@@ -2583,6 +2725,7 @@
        <item>vascosportv</item>
        <item>vdmofficiel</item>
        <item>vector</item>
+       <item>vector_full</item>
        <item>vellamo</item>
        <item>velur</item>
        <item>venicemystery</item>
@@ -2640,6 +2783,7 @@
        <item>voicesearch</item>
        <item>voicetoggles</item>
        <item>volume_boost_for_nexus_5</item>
+       <item>vopor</item>
        <item>vouchercloud</item>
        <item>voxel</item>
        <item>voxelrush</item>
@@ -2677,6 +2821,7 @@
        <item>wavecontrolpro</item>
        <item>wavepad</item>
        <item>waveradar</item>
+       <item>waves</item>
        <item>waze</item>
        <item>wboy</item>
        <item>wds1</item>
@@ -2732,6 +2877,7 @@
        <item>wififileexplorerpro</item>
        <item>wififiletransferpro</item>
        <item>wififinder</item>
+       <item>wifikeepalive</item>
        <item>wifikeyview</item>
        <item>wifikill</item>
        <item>wifinspect</item>
@@ -2753,6 +2899,8 @@
        <item>wondershareplayer</item>
        <item>wonderzoo</item>
        <item>wongacom</item>
+       <item>word</item>
+       <item>wordbrain</item>
        <item>wordbreakerfull</item>
        <item>wordfeudfree</item>
        <item>wordlens</item>
@@ -2762,6 +2910,7 @@
        <item>worldclockweatherwidget</item>
        <item>worldofgoo</item>
        <item>worldstarhiphop</item>
+       <item>wo_mic</item>
        <item>wpclock</item>
        <item>wpclock2</item>
        <item>wradiomexico</item>
@@ -2776,6 +2925,9 @@
        <item>xboxmusic</item>
        <item>xboxonesmartglass</item>
        <item>xboxonesmartglassbeta</item>
+       <item>xbox_360_smartglass</item>
+       <item>xbox_one_smartglass</item>
+       <item>xbox_one_smartglass_beta</item>
        <item>xda</item>
        <item>xdacredibility</item>
        <item>xdacredibilitypro</item>
@@ -2810,6 +2962,7 @@
        <item>yahoo</item>
        <item>yahoomail</item>
        <item>yahoomessenger</item>
+       <item>yahoo_mail</item>
        <item>yandexshell</item>
        <item>yatse</item>
        <item>yelp</item>
